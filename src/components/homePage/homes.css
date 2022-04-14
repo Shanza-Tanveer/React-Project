@@ -1,0 +1,74 @@
+.homes {
+  margin-top: 20px;
+}
+
+.homes img {
+  width: 279px;
+  height: 233px;
+  border-radius: 0.4rem;
+}
+
+.homes_heading {
+  margin-top: 12px;
+}
+
+.homes_heading h1 {
+  font-size: 16px;
+  color: black;
+}
+
+.reviews p {
+  font-size: 15px;
+  line-height: 1.4rem;
+  color: grey;
+  margin-top: 12px;
+  margin-left: 32px;
+}
+
+.homes_heading p {
+  font-size: 15px;
+  line-height: 1.4rem;
+  color: grey;
+}
+
+.homes_heading h3 {
+  color: black;
+  font-weight: bold;
+}
+
+.homes_heading a:hover {
+  color: black;
+}
+
+.reviews h6 {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.homes_h1 {
+  margin-top: 61px;
+  margin-left: 90px;
+  font-weight: bold;
+}
+
+.homeslist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: -1rem auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.badge {
+  font-size: 14px;
+  font-size: 14px;
+  padding: 12px 8px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.reviews {
+  display: flex;
+}

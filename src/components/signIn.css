@@ -1,0 +1,60 @@
+.signIn_form {
+  /* margin-top: 36px; */
+  margin-top: 36px;
+  margin-left: 39rem;
+  margin-right: 39rem;
+  background-color: beige;
+  border-style: solid;
+  border-color: burlywood;
+  border-radius: 2rem;
+}
+
+.signIn_form div {
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.signIn_form h1 {
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 43px;
+  margin-bottom: 4rem;
+  margin-top: 37px;
+}
+
+.signIn_form label {
+  font-size: 19px;
+  font-weight: bold;
+  color: darkblue;
+  line-height: 36px;
+}
+
+.signIn_form button {
+  /* margin-left: 60rem;
+  margin-top: 7rem; */
+  margin-left: 22rem;
+  margin-top: 9rem;
+  margin-bottom: 60px;
+  color: white;
+  background-color: #dcae1d;
+  padding: 7px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.signIn_form button:hover {
+  background-color: #c3d2d3;
+  text-decoration: none;
+  transition: 0.5s;
+  color: darkblue;
+}
+
+.form-input {
+  font-size: 1.6rem;
+  border-color: burlywood;
+  border-radius: 0.7rem;
+}

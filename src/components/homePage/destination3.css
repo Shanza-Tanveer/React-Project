@@ -1,0 +1,42 @@
+.destination3 {
+  margin-top: 13px;
+}
+
+.destination3 img {
+  /* width: 116%;
+  height: 50%; */
+  width: 377px;
+  height: 235px;
+  border-radius: 0.5rem;
+}
+
+.destination3_heading {
+  position: absolute;
+  bottom: -129rem;
+  margin-left: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.destination3_heading h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.destination3_heading p {
+  font-size: 15px;
+  line-height: 1.4rem;
+}
+
+.destination3_heading a:hover {
+  color: white;
+}
+
+.destinationlist3 {
+  width: 90vw;
+  max-width: 1170px;
+  margin: -1rem auto;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}

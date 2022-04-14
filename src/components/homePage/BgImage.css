@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+.text_block {
+  position: absolute;
+  bottom: 65px;
+  right: 360px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 393px;
+  margin-bottom: 340px;
+}
+
+.text_block h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.text_block h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.input {
+  border-style: solid;
+  border-color: #dcae1d;
+  padding: 11px;
+  padding-right: 126px;
+  font-size: 18px;
+  position: absolute;
+  right: 735px;
+}
+
+.btn_check {
+  font-size: 18px;
+  border-style: solid;
+  background-color: white;
+  border-color: #dcae1d;
+  padding: 11px 33px 11px 33px;
+  position: absolute;
+  right: 511px;
+}
+
+.btn_room {
+  font-size: 18px;
+  border-style: solid;
+  background-color: white;
+  border-color: #dcae1d;
+  padding: 11px;
+  position: absolute;
+  right: 260px;
+}
+
+.btn_search {
+  font-size: 18px;
+  border-style: solid;
+  background-color: darkblue;
+  color: white;
+  border-color: #dcae1d;
+  padding: 11px 55px 11px;
+  right: 95px;
+  position: absolute;
+}
+
+.checkin {
+  position: absolute;
+  bottom: 54px;
+  right: 10px;
+  left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 60px;
+}

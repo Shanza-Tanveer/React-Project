@@ -1,0 +1,44 @@
+.cities2 {
+  margin-top: 13px;
+}
+
+.cities2 img {
+  /* width: 116%;
+  height: 50%; */
+  width: 576px;
+  height: 330px;
+  border-radius: 0.5rem;
+}
+
+.cities2_heading {
+  position: absolute;
+  bottom: -204rem;
+  margin-left: 13px;
+  color: white;
+  font-weight: bold;
+  display: table-row;
+  width: 346px;
+}
+
+.cities2_heading h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cities2_heading p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.cities2_heading a:hover {
+  color: white;
+}
+
+.citieslist2 {
+  width: 90vw;
+  max-width: 1170px;
+  margin: -1rem auto;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}

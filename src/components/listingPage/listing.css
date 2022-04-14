@@ -1,0 +1,92 @@
+.filterlist {
+  /* border-style: solid; */
+  /* border-color: black; */
+  position: absolute;
+  margin-left: 122px;
+}
+
+.filter_h1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.filter_h1 h1 {
+  font-size: 20px;
+  padding-right: 182px;
+  /* padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 10px; */
+  margin-left: 8px;
+  margin-top: 11px;
+  margin-bottom: 9px;
+}
+
+.filter_items {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.filter_items h1 {
+  font-size: 18px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.previous_filter {
+  display: flex;
+  margin-top: 5px;
+}
+
+.input-1 {
+  margin-left: 10px;
+}
+
+.input-1 input {
+  width: 23px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.input-1 label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+
+.para p {
+  margin-left: 161px;
+  font-size: 13px;
+  color: black;
+}
+
+/* .input-2 {
+  margin-left: 10px;
+} */
+
+/* .input-2 input {
+  width: 23px;
+  height: 21px;
+  cursor: pointer;
+} */
+
+/* .input-2 label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+} */
+
+.para-2 p {
+  margin-left: 126px;
+  font-size: 13px;
+  color: black;
+}
+
+.para-3 p {
+  margin-left: 71px;
+  font-size: 13px;
+  color: black;
+}

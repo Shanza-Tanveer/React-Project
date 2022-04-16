@@ -1,10 +1,12 @@
 import React from 'react'
+import List from './List'
 import Listing from './Listing'
 
 const Rooms = () => {
   return (
     <>
-      <Listing />
+      {/* <Listing /> */}
+      <List />
     </>
   )
 }

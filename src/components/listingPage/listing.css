@@ -1,6 +1,8 @@
+/* 1st div */
+
 .filterlist {
-  /* border-style: solid; */
-  /* border-color: black; */
+  border-style: solid;
+  border-color: black;
   position: absolute;
   margin-left: 122px;
 }
@@ -13,13 +15,12 @@
 .filter_h1 h1 {
   font-size: 20px;
   padding-right: 182px;
-  /* padding-top: 6px;
-  padding-bottom: 4px;
-  padding-left: 10px; */
   margin-left: 8px;
   margin-top: 11px;
   margin-bottom: 9px;
 }
+
+/* 2nd div */
 
 .filter_items {
   border-style: solid;
@@ -28,11 +29,14 @@
 }
 
 .filter_items h1 {
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 8px;
   margin-top: 13px;
   margin-bottom: 13px;
+  font-weight: bold;
 }
+
+/* .previous_filter and .input-1 for 1st div and all */
 
 .previous_filter {
   display: flex;
@@ -44,20 +48,20 @@
 }
 
 .input-1 input {
-  width: 23px;
-  height: 21px;
+  width: 21px;
+  height: 19px;
   cursor: pointer;
 }
 
 .input-1 label {
   margin-left: 8px;
-  font-size: 16px;
+  font-size: 13px;
   color: black;
   cursor: pointer;
 }
 
 .para p {
-  margin-left: 161px;
+  margin-left: 170px;
   font-size: 13px;
   color: black;
 }
@@ -80,13 +84,552 @@
 } */
 
 .para-2 p {
-  margin-left: 126px;
+  margin-left: 141px;
   font-size: 13px;
   color: black;
 }
 
 .para-3 p {
-  margin-left: 71px;
+  margin-left: 95px;
   font-size: 13px;
+  color: black;
+}
+
+/* 3rd div */
+
+.budget {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.budget h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.toogle_switch {
+  display: flex;
+}
+
+.toogle_switch p {
+  margin-left: 14px;
+  font-size: 15px;
+  color: black;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 21px;
+  margin-left: 9px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 13px;
+  left: 5px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch-para p {
+  margin-left: 76px;
+  font-size: 13px;
+  color: black;
+}
+
+.switch-para1 p {
+  margin-left: 42px;
+  font-size: 13px;
+  color: black;
+}
+
+.switch-para2 p {
+  margin-left: 45px;
+  font-size: 13px;
+  color: black;
+}
+
+.switch-para3 p {
+  margin-left: 119px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 4th div */
+
+.popular_filter {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.popular_filter h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.popular_para1 p {
+  margin-left: 159px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para2 p {
+  margin-left: 157px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para3 p {
+  margin-left: 96px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para4 p {
+  margin-left: 124px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para5 p {
+  margin-left: 93px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para6 p {
+  margin-left: 61px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para7 p {
+  margin-left: 96px;
+  font-size: 13px;
+  color: black;
+}
+
+.popular_para8 p {
+  margin-left: 144px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 5th div */
+
+.health_saftey {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.health_saftey h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.saftey {
+  display: flex;
+  margin-top: 5px;
+}
+
+.input-2 {
+  margin-left: 10px;
+}
+
+.input-2 input {
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.input-2 label {
+  margin-left: 8px;
+  font-size: 13px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+}
+
+.health_saftey_para p {
+  margin-left: 208px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 6th div */
+
+.sustainability {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.sustainability h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.sustainability_para p {
+  margin-left: 44px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 7th para */
+
+.star_rating {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.star_rating h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.rating_para p {
+  margin-left: 164px;
+  font-size: 13px;
+  color: black;
+}
+
+.rating_para1 p {
+  margin-left: 164px;
+  font-size: 13px;
+  color: black;
+}
+
+.rating_para2 p {
+  margin-left: 169px;
+  font-size: 13px;
+  color: black;
+}
+
+.rating_para3 p {
+  margin-left: 157px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 8th div */
+
+.distance {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.distance h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.distance_para p {
+  margin-left: 124px;
+  font-size: 13px;
+  color: black;
+}
+
+.distance_para1 p {
+  margin-left: 124px;
+  font-size: 13px;
+  color: black;
+}
+
+.distance_para2 p {
+  font-size: 13px;
+  margin-left: 38px;
+  color: black;
+}
+/* 9th div */
+
+.fun_things {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.fun_things h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.fun_things_para p {
+  font-size: 13px;
+  margin-left: 163px;
+  color: black;
+}
+
+.fun_things_para1 p {
+  font-size: 13px;
+  margin-left: 156px;
+  color: black;
+}
+
+.fun_things_para2 p {
+  font-size: 13px;
+  margin-left: 136px;
+  color: black;
+}
+
+.fun_things_para3 p {
+  font-size: 13px;
+  margin-left: 49px;
+  color: black;
+}
+.fun_things_para4 p {
+  font-size: 13px;
+  margin-left: 152px;
+  color: black;
+}
+
+.fun_things_para5 p {
+  font-size: 13px;
+  margin-left: 182px;
+  color: black;
+}
+
+.fun_things_para6 p {
+  font-size: 13px;
+  margin-left: 81px;
+  color: black;
+}
+
+.fun_things_para7 p {
+  font-size: 13px;
+  margin-left: 118px;
+  color: black;
+}
+
+.fun_things_para8 p {
+  font-size: 13px;
+  margin-left: 169px;
+  color: black;
+}
+
+.fun_things_para9 p {
+  font-size: 13px;
+  margin-left: 99px;
+  color: black;
+}
+
+.fun_things_para10 p {
+  font-size: 13px;
+  margin-left: 166px;
+  color: black;
+}
+
+.fun_things_para11 p {
+  font-size: 13px;
+  margin-left: 139px;
+  color: black;
+}
+
+.fun_things_para12 p {
+  font-size: 13px;
+  margin-left: 118px;
+  color: black;
+}
+
+.fun_things_para13 p {
+  font-size: 13px;
+  margin-left: 129px;
+  color: black;
+}
+
+.fun_things_para14 p {
+  font-size: 13px;
+  margin-left: 106px;
+  color: black;
+}
+
+.fun_things_para15 p {
+  font-size: 13px;
+  margin-left: 105px;
+  color: black;
+}
+
+.fun_things_para16 p {
+  font-size: 13px;
+  margin-left: 73px;
+  color: black;
+}
+
+/* 10th div */
+
+.deal {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.deal h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.deals_para p {
+  font-size: 13px;
+  margin-left: 157px;
+  color: black;
+}
+
+/* 11th div */
+
+.policy {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.policy h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.policy_para p {
+  font-size: 13px;
+  margin-left: 108px;
+  color: black;
+}
+
+.policy_para1 p {
+  font-size: 13px;
+  margin-left: 68px;
+  color: black;
+}
+
+.policy_para2 p {
+  font-size: 13px;
+  margin-left: 116px;
+  color: black;
+}
+
+/* 12th div */
+
+.meals {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.meals h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.meals_para p {
+  font-size: 13px;
+  margin-left: 108px;
+  color: black;
+}
+
+.meals_para1 p {
+  font-size: 13px;
+  margin-left: 99px;
+  color: black;
+}
+
+/* 13th div */
+
+.entire_places {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.entire_places h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.entire_places_para p {
+  font-size: 13px;
+  margin-left: 53px;
   color: black;
 }

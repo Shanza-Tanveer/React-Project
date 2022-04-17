@@ -633,3 +633,555 @@ input:checked + .slider:before {
   margin-left: 53px;
   color: black;
 }
+
+/* 14th div */
+
+.property_type {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.property_type h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.property_type_para p {
+  font-size: 13px;
+  margin-left: 130px;
+  color: black;
+}
+
+.property_type_para1 p {
+  font-size: 13px;
+  margin-left: 138px;
+  color: black;
+}
+
+.property_type_para2 p {
+  font-size: 13px;
+  margin-left: 165px;
+  color: black;
+}
+
+.property_type_para3 p {
+  font-size: 13px;
+  margin-left: 100px;
+  color: black;
+}
+
+.property_type_para4 p {
+  font-size: 13px;
+  margin-left: 174px;
+  color: black;
+}
+
+.property_type_para5 p {
+  font-size: 13px;
+  margin-left: 144px;
+  color: black;
+}
+
+.property_type_para6 p {
+  font-size: 13px;
+  margin-left: 115px;
+  color: black;
+}
+
+.property_type_para7 p {
+  font-size: 13px;
+  margin-left: 163px;
+  color: black;
+}
+
+/* 15th div */
+
+.landmarks {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.landmarks h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.landmarks_para p {
+  font-size: 13px;
+  margin-left: 98px;
+  color: black;
+}
+
+/* 16th div */
+
+.preference {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.preference h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.preference_para p {
+  font-size: 13px;
+  margin-left: 134px;
+  color: black;
+}
+
+/* 17th div */
+
+.review {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.review h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.review_para p {
+  margin-left: 118px;
+  font-size: 13px;
+  color: black;
+}
+
+.review_para1 p {
+  margin-left: 39px;
+  font-size: 13px;
+  color: black;
+}
+
+.review_para2 p {
+  margin-left: 115px;
+  font-size: 13px;
+  color: black;
+}
+
+.review_para3 p {
+  margin-left: 144px;
+  font-size: 13px;
+  color: black;
+}
+
+.review_para4 p {
+  margin-left: 130px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 18th div */
+
+.facility {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.facility h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.facilities_para p {
+  font-size: 13px;
+  margin-left: 158px;
+  color: black;
+}
+
+.facilities_para1 p {
+  font-size: 13px;
+  margin-left: 145px;
+  color: black;
+}
+
+.facilities_para2 p {
+  font-size: 13px;
+  margin-left: 124px;
+  color: black;
+}
+
+.facilities_para3 p {
+  font-size: 13px;
+  margin-left: 128px;
+  color: black;
+}
+
+.facilities_para4 p {
+  font-size: 13px;
+  margin-left: 91px;
+  color: black;
+}
+
+.facilities_para5 p {
+  font-size: 13px;
+  margin-left: 139px;
+  color: black;
+}
+
+.facilities_para6 p {
+  font-size: 13px;
+  margin-left: 101px;
+  color: black;
+}
+
+.facilities_para7 p {
+  font-size: 13px;
+  margin-left: 127px;
+  color: black;
+}
+
+.facilities_para8 p {
+  font-size: 13px;
+  margin-left: 46px;
+  color: black;
+}
+
+.facilities_para9 p {
+  font-size: 13px;
+  margin-left: 148px;
+  color: black;
+}
+
+.facilities_para10 p {
+  font-size: 13px;
+  margin-left: 130px;
+  color: black;
+}
+
+.facilities_para11 p {
+  font-size: 13px;
+  margin-left: 184px;
+  color: black;
+}
+
+.facilities_para12 p {
+  font-size: 13px;
+  margin-left: 121px;
+  color: black;
+}
+
+.facilities_para13 p {
+  font-size: 13px;
+  margin-left: 96px;
+  color: black;
+}
+
+/* 19th div */
+
+.room_facility {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.room_facility h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.room_facility_para p {
+  font-size: 13px;
+  margin-left: 110px;
+  color: black;
+}
+
+.room_facility_para1 p {
+  font-size: 13px;
+  margin-left: 160px;
+  color: black;
+}
+
+.room_facility_para2 p {
+  font-size: 13px;
+  margin-left: 114px;
+  color: black;
+}
+
+.room_facility_para3 p {
+  font-size: 13px;
+  margin-left: 162px;
+  color: black;
+}
+
+.room_facility_para4 p {
+  font-size: 13px;
+  margin-left: 96px;
+  color: black;
+}
+
+.room_facility_para5 p {
+  font-size: 13px;
+  margin-left: 176px;
+  color: black;
+}
+
+.room_facility_para6 p {
+  font-size: 13px;
+  margin-left: 164px;
+  color: black;
+}
+
+.room_facility_para7 p {
+  font-size: 13px;
+  margin-left: 166px;
+  color: black;
+}
+
+.room_facility_para8 p {
+  font-size: 13px;
+  margin-left: 166px;
+  color: black;
+}
+
+.room_facility_para9 p {
+  font-size: 13px;
+  margin-left: 128px;
+  color: black;
+}
+
+.room_facility_para10 p {
+  font-size: 13px;
+  margin-left: 164px;
+  color: black;
+}
+
+.room_facility_para11 p {
+  font-size: 13px;
+  margin-left: 140px;
+  color: black;
+}
+
+.room_facility_para12 p {
+  font-size: 13px;
+  margin-left: 108px;
+  color: black;
+}
+
+.room_facility_para13 p {
+  font-size: 13px;
+  margin-left: 108px;
+  color: black;
+}
+
+.room_facility_para14 p {
+  font-size: 13px;
+  margin-left: 132px;
+  color: black;
+}
+
+.room_facility_para15 p {
+  font-size: 13px;
+  margin-left: 63px;
+  color: black;
+}
+
+.room_facility_para16 p {
+  font-size: 13px;
+  margin-left: 121px;
+  color: black;
+}
+
+.room_facility_para17 p {
+  font-size: 13px;
+  margin-left: 180px;
+  color: black;
+}
+
+/* 20th div */
+
+.neighborhood {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.neighborhood h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.neighborhood_para p {
+  font-size: 13px;
+  margin-left: 143px;
+  color: black;
+}
+
+.neighborhood_para1 p {
+  font-size: 13px;
+  margin-left: 151px;
+  color: black;
+}
+
+.neighborhood_para2 p {
+  font-size: 13px;
+  margin-left: 153px;
+  color: black;
+}
+
+.neighborhood_para3 p {
+  font-size: 13px;
+  margin-left: 148px;
+  color: black;
+}
+
+.neighborhood_para4 p {
+  font-size: 13px;
+  margin-left: 148px;
+  color: black;
+}
+
+/* 21th div */
+
+.property_accessibility {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.property_accessibility h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.property_accessibility_para p {
+  font-size: 13px;
+  margin-left: 80px;
+  color: black;
+}
+
+.property_accessibility_para1 p {
+  font-size: 13px;
+  margin-left: 98px;
+  color: black;
+}
+
+.property_accessibility_para2 p {
+  font-size: 13px;
+  margin-left: 141px;
+  color: black;
+}
+
+.property_accessibility_para3 p {
+  font-size: 13px;
+  margin-left: 136px;
+  color: black;
+}
+
+.property_accessibility_para4 p {
+  font-size: 13px;
+  margin-left: 62px;
+  color: black;
+}
+
+/* 22th div */
+
+.room_accessibility {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+}
+
+.room_accessibility h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.room_accessibility_para p {
+  font-size: 13px;
+  margin-left: 20px;
+  color: black;
+}
+
+.room_accessibility_para1 p {
+  font-size: 13px;
+  margin-left: 13px;
+  color: black;
+}
+
+.room_accessibility_para2 p {
+  font-size: 13px;
+  margin-left: 27px;
+  color: black;
+}
+
+.room_accessibility_para3 p {
+  font-size: 13px;
+  margin-left: 99px;
+  color: black;
+}
+
+.room_accessibility_para4 p {
+  font-size: 13px;
+  margin-left: 134px;
+  color: black;
+}
+
+.room_accessibility_para5 p {
+  font-size: 13px;
+  margin-left: 133px;
+  color: black;
+}
+
+.room_accessibility_para6 p {
+  font-size: 13px;
+  margin-left: 124px;
+  color: black;
+}
+
+.room_accessibility_para7 p {
+  font-size: 13px;
+  margin-left: 143px;
+  color: black;
+}
+
+.room_accessibility_para8 p {
+  font-size: 13px;
+  margin-left: 152px;
+  color: black;
+}
+
+.room_accessibility_para9 p {
+  font-size: 13px;
+  margin-left: 49px;
+  color: black;
+}
+
+.room_accessibility_para10 p {
+  font-size: 13px;
+  margin-left: 137px;
+  color: black;
+}

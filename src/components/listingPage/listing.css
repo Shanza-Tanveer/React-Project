@@ -1,23 +1,27 @@
 /* 1st div */
 
 .filterlist {
-  border-style: solid;
-  border-color: black;
   position: absolute;
-  margin-left: 122px;
+  margin-left: 120px;
 }
 
 .filter_h1 {
   border-style: solid;
   border-color: black;
+  border-width: thin;
+  border-bottom: none;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
 }
 
 .filter_h1 h1 {
-  font-size: 20px;
-  padding-right: 182px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 193px;
   margin-left: 8px;
-  margin-top: 11px;
-  margin-bottom: 9px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  height: 29px;
 }
 
 /* 2nd div */
@@ -26,6 +30,8 @@
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .filter_items h1 {
@@ -40,7 +46,7 @@
 
 .previous_filter {
   display: flex;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .input-1 {
@@ -101,6 +107,8 @@
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .budget h1 {
@@ -195,13 +203,13 @@ input:checked + .slider:before {
 }
 
 .switch-para2 p {
-  margin-left: 45px;
+  margin-left: 44px;
   font-size: 13px;
   color: black;
 }
 
 .switch-para3 p {
-  margin-left: 119px;
+  margin-left: 118px;
   font-size: 13px;
   color: black;
 }
@@ -212,6 +220,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .popular_filter h1 {
@@ -259,13 +269,13 @@ input:checked + .slider:before {
 }
 
 .popular_para7 p {
-  margin-left: 96px;
+  margin-left: 95px;
   font-size: 13px;
   color: black;
 }
 
 .popular_para8 p {
-  margin-left: 144px;
+  margin-left: 143px;
   font-size: 13px;
   color: black;
 }
@@ -276,6 +286,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .health_saftey h1 {
@@ -310,7 +322,7 @@ input:checked + .slider:before {
 }
 
 .health_saftey_para p {
-  margin-left: 208px;
+  margin-left: 203px;
   margin-top: 14px;
   font-size: 13px;
   color: black;
@@ -322,6 +334,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .sustainability h1 {
@@ -333,7 +347,7 @@ input:checked + .slider:before {
 }
 
 .sustainability_para p {
-  margin-left: 44px;
+  margin-left: 40px;
   font-size: 13px;
   color: black;
 }
@@ -344,6 +358,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .star_rating h1 {
@@ -355,25 +371,25 @@ input:checked + .slider:before {
 }
 
 .rating_para p {
-  margin-left: 164px;
+  margin-left: 160px;
   font-size: 13px;
   color: black;
 }
 
 .rating_para1 p {
-  margin-left: 164px;
+  margin-left: 160px;
   font-size: 13px;
   color: black;
 }
 
 .rating_para2 p {
-  margin-left: 169px;
+  margin-left: 164px;
   font-size: 13px;
   color: black;
 }
 
 .rating_para3 p {
-  margin-left: 157px;
+  margin-left: 152px;
   font-size: 13px;
   color: black;
 }
@@ -384,6 +400,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .distance h1 {
@@ -395,13 +413,13 @@ input:checked + .slider:before {
 }
 
 .distance_para p {
-  margin-left: 124px;
+  margin-left: 119px;
   font-size: 13px;
   color: black;
 }
 
 .distance_para1 p {
-  margin-left: 124px;
+  margin-left: 119px;
   font-size: 13px;
   color: black;
 }
@@ -417,6 +435,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .fun_things h1 {
@@ -429,102 +449,102 @@ input:checked + .slider:before {
 
 .fun_things_para p {
   font-size: 13px;
-  margin-left: 163px;
+  margin-left: 161px;
   color: black;
 }
 
 .fun_things_para1 p {
   font-size: 13px;
-  margin-left: 156px;
+  margin-left: 154px;
   color: black;
 }
 
 .fun_things_para2 p {
   font-size: 13px;
-  margin-left: 136px;
+  margin-left: 133px;
   color: black;
 }
 
 .fun_things_para3 p {
   font-size: 13px;
-  margin-left: 49px;
+  margin-left: 46px;
   color: black;
 }
 .fun_things_para4 p {
   font-size: 13px;
-  margin-left: 152px;
+  margin-left: 149px;
   color: black;
 }
 
 .fun_things_para5 p {
   font-size: 13px;
-  margin-left: 182px;
+  margin-left: 180px;
   color: black;
 }
 
 .fun_things_para6 p {
   font-size: 13px;
-  margin-left: 81px;
+  margin-left: 79px;
   color: black;
 }
 
 .fun_things_para7 p {
   font-size: 13px;
-  margin-left: 118px;
+  margin-left: 116px;
   color: black;
 }
 
 .fun_things_para8 p {
   font-size: 13px;
-  margin-left: 169px;
+  margin-left: 168px;
   color: black;
 }
 
 .fun_things_para9 p {
   font-size: 13px;
-  margin-left: 99px;
+  margin-left: 97px;
   color: black;
 }
 
 .fun_things_para10 p {
   font-size: 13px;
-  margin-left: 166px;
+  margin-left: 164px;
   color: black;
 }
 
 .fun_things_para11 p {
   font-size: 13px;
-  margin-left: 139px;
+  margin-left: 138px;
   color: black;
 }
 
 .fun_things_para12 p {
   font-size: 13px;
-  margin-left: 118px;
+  margin-left: 117px;
   color: black;
 }
 
 .fun_things_para13 p {
   font-size: 13px;
-  margin-left: 129px;
+  margin-left: 127px;
   color: black;
 }
 
 .fun_things_para14 p {
   font-size: 13px;
-  margin-left: 106px;
+  margin-left: 103px;
   color: black;
 }
 
 .fun_things_para15 p {
   font-size: 13px;
-  margin-left: 105px;
+  margin-left: 102px;
   color: black;
 }
 
 .fun_things_para16 p {
   font-size: 13px;
-  margin-left: 73px;
+  margin-left: 69px;
   color: black;
 }
 
@@ -534,6 +554,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .deal h1 {
@@ -546,7 +568,7 @@ input:checked + .slider:before {
 
 .deals_para p {
   font-size: 13px;
-  margin-left: 157px;
+  margin-left: 153px;
   color: black;
 }
 
@@ -556,6 +578,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .policy h1 {
@@ -568,19 +592,19 @@ input:checked + .slider:before {
 
 .policy_para p {
   font-size: 13px;
-  margin-left: 108px;
+  margin-left: 104px;
   color: black;
 }
 
 .policy_para1 p {
   font-size: 13px;
-  margin-left: 68px;
+  margin-left: 64px;
   color: black;
 }
 
 .policy_para2 p {
   font-size: 13px;
-  margin-left: 116px;
+  margin-left: 112px;
   color: black;
 }
 
@@ -590,6 +614,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .meals h1 {
@@ -602,13 +628,13 @@ input:checked + .slider:before {
 
 .meals_para p {
   font-size: 13px;
-  margin-left: 108px;
+  margin-left: 106px;
   color: black;
 }
 
 .meals_para1 p {
   font-size: 13px;
-  margin-left: 99px;
+  margin-left: 96px;
   color: black;
 }
 
@@ -618,6 +644,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .entire_places h1 {
@@ -630,7 +658,7 @@ input:checked + .slider:before {
 
 .entire_places_para p {
   font-size: 13px;
-  margin-left: 53px;
+  margin-left: 49px;
   color: black;
 }
 
@@ -640,6 +668,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .property_type h1 {
@@ -652,49 +682,49 @@ input:checked + .slider:before {
 
 .property_type_para p {
   font-size: 13px;
-  margin-left: 130px;
+  margin-left: 126px;
   color: black;
 }
 
 .property_type_para1 p {
   font-size: 13px;
-  margin-left: 138px;
+  margin-left: 134px;
   color: black;
 }
 
 .property_type_para2 p {
   font-size: 13px;
-  margin-left: 165px;
+  margin-left: 160px;
   color: black;
 }
 
 .property_type_para3 p {
   font-size: 13px;
-  margin-left: 100px;
+  margin-left: 96px;
   color: black;
 }
 
 .property_type_para4 p {
   font-size: 13px;
-  margin-left: 174px;
+  margin-left: 170px;
   color: black;
 }
 
 .property_type_para5 p {
   font-size: 13px;
-  margin-left: 144px;
+  margin-left: 140px;
   color: black;
 }
 
 .property_type_para6 p {
   font-size: 13px;
-  margin-left: 115px;
+  margin-left: 110px;
   color: black;
 }
 
 .property_type_para7 p {
   font-size: 13px;
-  margin-left: 163px;
+  margin-left: 159px;
   color: black;
 }
 
@@ -704,6 +734,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .landmarks h1 {
@@ -716,7 +748,7 @@ input:checked + .slider:before {
 
 .landmarks_para p {
   font-size: 13px;
-  margin-left: 98px;
+  margin-left: 93px;
   color: black;
 }
 
@@ -726,6 +758,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .preference h1 {
@@ -738,7 +772,7 @@ input:checked + .slider:before {
 
 .preference_para p {
   font-size: 13px;
-  margin-left: 134px;
+  margin-left: 129px;
   color: black;
 }
 
@@ -748,6 +782,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .review h1 {
@@ -759,7 +795,7 @@ input:checked + .slider:before {
 }
 
 .review_para p {
-  margin-left: 118px;
+  margin-left: 112px;
   font-size: 13px;
   color: black;
 }
@@ -771,19 +807,19 @@ input:checked + .slider:before {
 }
 
 .review_para2 p {
-  margin-left: 115px;
+  margin-left: 109px;
   font-size: 13px;
   color: black;
 }
 
 .review_para3 p {
-  margin-left: 144px;
+  margin-left: 138px;
   font-size: 13px;
   color: black;
 }
 
 .review_para4 p {
-  margin-left: 130px;
+  margin-left: 125px;
   font-size: 13px;
   color: black;
 }
@@ -794,6 +830,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .facility h1 {
@@ -806,85 +844,85 @@ input:checked + .slider:before {
 
 .facilities_para p {
   font-size: 13px;
-  margin-left: 158px;
+  margin-left: 154px;
   color: black;
 }
 
 .facilities_para1 p {
   font-size: 13px;
-  margin-left: 145px;
+  margin-left: 141px;
   color: black;
 }
 
 .facilities_para2 p {
   font-size: 13px;
-  margin-left: 124px;
+  margin-left: 119px;
   color: black;
 }
 
 .facilities_para3 p {
   font-size: 13px;
-  margin-left: 128px;
+  margin-left: 123px;
   color: black;
 }
 
 .facilities_para4 p {
   font-size: 13px;
-  margin-left: 91px;
+  margin-left: 86px;
   color: black;
 }
 
 .facilities_para5 p {
   font-size: 13px;
-  margin-left: 139px;
+  margin-left: 135px;
   color: black;
 }
 
 .facilities_para6 p {
   font-size: 13px;
-  margin-left: 101px;
+  margin-left: 96px;
   color: black;
 }
 
 .facilities_para7 p {
   font-size: 13px;
-  margin-left: 127px;
+  margin-left: 123px;
   color: black;
 }
 
 .facilities_para8 p {
   font-size: 13px;
-  margin-left: 46px;
+  margin-left: 43px;
   color: black;
 }
 
 .facilities_para9 p {
   font-size: 13px;
-  margin-left: 148px;
+  margin-left: 146px;
   color: black;
 }
 
 .facilities_para10 p {
   font-size: 13px;
-  margin-left: 130px;
+  margin-left: 127px;
   color: black;
 }
 
 .facilities_para11 p {
   font-size: 13px;
-  margin-left: 184px;
+  margin-left: 180px;
   color: black;
 }
 
 .facilities_para12 p {
   font-size: 13px;
-  margin-left: 121px;
+  margin-left: 116px;
   color: black;
 }
 
 .facilities_para13 p {
   font-size: 13px;
-  margin-left: 96px;
+  margin-left: 92px;
   color: black;
 }
 
@@ -894,6 +932,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .room_facility h1 {
@@ -906,109 +946,109 @@ input:checked + .slider:before {
 
 .room_facility_para p {
   font-size: 13px;
-  margin-left: 110px;
+  margin-left: 102px;
   color: black;
 }
 
 .room_facility_para1 p {
   font-size: 13px;
-  margin-left: 160px;
+  margin-left: 151px;
   color: black;
 }
 
 .room_facility_para2 p {
   font-size: 13px;
-  margin-left: 114px;
+  margin-left: 105px;
   color: black;
 }
 
 .room_facility_para3 p {
   font-size: 13px;
-  margin-left: 162px;
+  margin-left: 154px;
   color: black;
 }
 
 .room_facility_para4 p {
   font-size: 13px;
-  margin-left: 96px;
+  margin-left: 87px;
   color: black;
 }
 
 .room_facility_para5 p {
   font-size: 13px;
-  margin-left: 176px;
+  margin-left: 167px;
   color: black;
 }
 
 .room_facility_para6 p {
   font-size: 13px;
-  margin-left: 164px;
+  margin-left: 155px;
   color: black;
 }
 
 .room_facility_para7 p {
   font-size: 13px;
-  margin-left: 166px;
+  margin-left: 157px;
   color: black;
 }
 
 .room_facility_para8 p {
   font-size: 13px;
-  margin-left: 166px;
+  margin-left: 159px;
   color: black;
 }
 
 .room_facility_para9 p {
   font-size: 13px;
-  margin-left: 128px;
+  margin-left: 119px;
   color: black;
 }
 
 .room_facility_para10 p {
   font-size: 13px;
-  margin-left: 164px;
+  margin-left: 155px;
   color: black;
 }
 
 .room_facility_para11 p {
   font-size: 13px;
-  margin-left: 140px;
+  margin-left: 131px;
   color: black;
 }
 
 .room_facility_para12 p {
   font-size: 13px;
-  margin-left: 108px;
+  margin-left: 98px;
   color: black;
 }
 
 .room_facility_para13 p {
   font-size: 13px;
-  margin-left: 108px;
+  margin-left: 98px;
   color: black;
 }
 
 .room_facility_para14 p {
   font-size: 13px;
-  margin-left: 132px;
+  margin-left: 124px;
   color: black;
 }
 
 .room_facility_para15 p {
   font-size: 13px;
-  margin-left: 63px;
+  margin-left: 54px;
   color: black;
 }
 
 .room_facility_para16 p {
   font-size: 13px;
-  margin-left: 121px;
+  margin-left: 114px;
   color: black;
 }
 
 .room_facility_para17 p {
   font-size: 13px;
-  margin-left: 180px;
+  margin-left: 172px;
   color: black;
 }
 
@@ -1018,6 +1058,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .neighborhood h1 {
@@ -1030,31 +1072,31 @@ input:checked + .slider:before {
 
 .neighborhood_para p {
   font-size: 13px;
-  margin-left: 143px;
+  margin-left: 135px;
   color: black;
 }
 
 .neighborhood_para1 p {
   font-size: 13px;
-  margin-left: 151px;
+  margin-left: 145px;
   color: black;
 }
 
 .neighborhood_para2 p {
   font-size: 13px;
-  margin-left: 153px;
+  margin-left: 147px;
   color: black;
 }
 
 .neighborhood_para3 p {
   font-size: 13px;
-  margin-left: 148px;
+  margin-left: 142px;
   color: black;
 }
 
 .neighborhood_para4 p {
   font-size: 13px;
-  margin-left: 148px;
+  margin-left: 143px;
   color: black;
 }
 
@@ -1064,6 +1106,8 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
 }
 
 .property_accessibility h1 {
@@ -1076,31 +1120,31 @@ input:checked + .slider:before {
 
 .property_accessibility_para p {
   font-size: 13px;
-  margin-left: 80px;
+  margin-left: 72px;
   color: black;
 }
 
 .property_accessibility_para1 p {
   font-size: 13px;
-  margin-left: 98px;
+  margin-left: 90px;
   color: black;
 }
 
 .property_accessibility_para2 p {
   font-size: 13px;
-  margin-left: 141px;
+  margin-left: 134px;
   color: black;
 }
 
 .property_accessibility_para3 p {
   font-size: 13px;
-  margin-left: 136px;
+  margin-left: 129px;
   color: black;
 }
 
 .property_accessibility_para4 p {
   font-size: 13px;
-  margin-left: 62px;
+  margin-left: 54px;
   color: black;
 }
 
@@ -1110,6 +1154,9 @@ input:checked + .slider:before {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
+  border-width: thin;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
 }
 
 .room_accessibility h1 {
@@ -1122,66 +1169,66 @@ input:checked + .slider:before {
 
 .room_accessibility_para p {
   font-size: 13px;
-  margin-left: 20px;
+  margin-left: 14px;
   color: black;
 }
 
 .room_accessibility_para1 p {
   font-size: 13px;
-  margin-left: 13px;
+  margin-left: 8px;
   color: black;
 }
 
 .room_accessibility_para2 p {
   font-size: 13px;
-  margin-left: 27px;
+  margin-left: 22px;
   color: black;
 }
 
 .room_accessibility_para3 p {
   font-size: 13px;
-  margin-left: 99px;
+  margin-left: 95px;
   color: black;
 }
 
 .room_accessibility_para4 p {
   font-size: 13px;
-  margin-left: 134px;
+  margin-left: 130px;
   color: black;
 }
 
 .room_accessibility_para5 p {
   font-size: 13px;
-  margin-left: 133px;
+  margin-left: 128px;
   color: black;
 }
 
 .room_accessibility_para6 p {
   font-size: 13px;
-  margin-left: 124px;
+  margin-left: 118px;
   color: black;
 }
 
 .room_accessibility_para7 p {
   font-size: 13px;
-  margin-left: 143px;
+  margin-left: 138px;
   color: black;
 }
 
 .room_accessibility_para8 p {
   font-size: 13px;
-  margin-left: 152px;
+  margin-left: 147px;
   color: black;
 }
 
 .room_accessibility_para9 p {
   font-size: 13px;
-  margin-left: 49px;
+  margin-left: 44px;
   color: black;
 }
 
 .room_accessibility_para10 p {
   font-size: 13px;
-  margin-left: 137px;
+  margin-left: 132px;
   color: black;
 }

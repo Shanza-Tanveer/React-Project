@@ -43,13 +43,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='villas' name='villas' value='villas' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='villas'
-                  name='villas'
-                  value='villas'
-                />
                 <label for='villas'>Villas</label>
               </NavLink>
             </div>
@@ -61,13 +56,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='homestays'
+                name='homestays'
+                value='homestays'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='homestays'
-                  name='homestays'
-                  value='homestays'
-                />
                 <label for='homestays'>Homestays</label>
               </NavLink>
             </div>
@@ -79,13 +74,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bed and brakfast'
+                name='bed and breakfast'
+                value='bed and breakfast'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bed and brakfast'
-                  name='bed and breakfast'
-                  value='bed and breakfast'
-                />
                 <label for='homestays'>Bed and Breakfasts</label>
               </NavLink>
             </div>
@@ -114,13 +109,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='0 - 10,000'
+                name='0 - 10,000'
+                value='0 - 10,000'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='0 - 10,000'
-                  name='0 - 10,000'
-                  value='0 - 10,000'
-                />
                 <label for='homestays'>PKR 0 – PKR 10,000</label>
               </NavLink>
             </div>
@@ -132,13 +127,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='10,000 - 20,000'
+                name='10,000 - 20,000'
+                value='10,000 - 20,000'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='10,000 - 20,000'
-                  name='10,000 - 20,000'
-                  value='10,000 - 20,000'
-                />
                 <label for='homestays'>PKR 10,000 – PKR 20,000</label>
               </NavLink>
             </div>
@@ -150,13 +145,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='20,000 - 30,000'
+                name='20,000 - 30,000'
+                value='20,000 - 30,000'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='20,000 - 30,000'
-                  name='20,000 - 30,000'
-                  value='20,000 - 30,000'
-                />
                 <label for='homestays'>PKR 20,000 – PKR 30,000</label>
               </NavLink>
             </div>
@@ -168,13 +163,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='30,000 - 40,000'
+                name='30,000 - 40,000'
+                value='30,000 - 40,000'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='30,000 - 40,000'
-                  name='30,000 - 40,000'
-                  value='30,000 - 40,000'
-                />
                 <label for='homestays'>PKR 30,000 – PKR 40,000</label>
               </NavLink>
             </div>
@@ -186,13 +181,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='40,000+'
+                name='40,000+'
+                value='40,000+'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='40,000+'
-                  name='40,000+'
-                  value='40,000+'
-                />
                 <label for='homestays'>PKR 40,000 +</label>
               </NavLink>
             </div>
@@ -210,13 +205,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='hotels' name='hotels' value='hotels' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='hotels'
-                  name='hotels'
-                  value='hotels'
-                />
                 <label for='hotels'>Hotels</label>
               </NavLink>
             </div>
@@ -228,13 +218,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='4 stars'
+                name='4 stars'
+                value='4 stars'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='4 stars'
-                  name='4 stars'
-                  value='4 stars'
-                />
                 <label for='4 stars'>4 Stars</label>
               </NavLink>
             </div>
@@ -246,13 +236,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='breakfast'
+                name='breakfast'
+                value='breakfast'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='breakfast'
-                  name='breakfast'
-                  value='breakfast'
-                />
                 <label for='breakfast'>Breakfast Included</label>
               </NavLink>
             </div>
@@ -264,13 +254,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='guesthouses'
+                name='guesthouses'
+                value='guesthouses'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='guesthouses'
-                  name='guesthouses'
-                  value='guesthouses'
-                />
                 <label for='guesthouses'>Guesthouses</label>
               </NavLink>
             </div>
@@ -282,13 +272,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='centaurus mall'
+                name='centaurus mall'
+                value='centaurus mall'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='centaurus mall'
-                  name='centaurus mall'
-                  value='centaurus mall'
-                />
                 <label for='centaurus mall'>The Centaurus Mall</label>
               </NavLink>
             </div>
@@ -300,13 +290,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='credit card'
+                name='credit card'
+                value='credit card'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='credit card'
-                  name='credit card'
-                  value='credit card'
-                />
                 <label for='credit card'>Book without credit card</label>
               </NavLink>
             </div>
@@ -318,13 +308,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bed and breakfasts'
+                name='bed and breakfasts'
+                value='bed and breakfasts'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bed and breakfasts'
-                  name='bed and breakfasts'
-                  value='bed and breakfasts'
-                />
                 <label for='bed and breakfasts'>Bed and Breakfasts</label>
               </NavLink>
             </div>
@@ -336,13 +326,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='F-6 sector'
+                name='F-6 sector'
+                value='F-6 sector'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='F-6 sector'
-                  name='F-6 sector'
-                  value='F-6 sector'
-                />
                 <label for='F-6 sector'>F-6 Sector</label>
               </NavLink>
             </div>
@@ -360,13 +350,13 @@ const List = () => {
           </div>
           <div className='saftey'>
             <div className='input-2'>
+              <input
+                type='checkbox'
+                id='health and saftey'
+                name='health and saftey'
+                value='health and saftey'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='health and saftey'
-                  name='health and saftey'
-                  value='health and saftey'
-                />
                 <label for='health and saftey'>
                   Properties that take health & safety measures
                 </label>
@@ -386,13 +376,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='sustainable properties'
+                name='sustainable properties'
+                value='sustainable properties'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='sustainable properties'
-                  name='sustainable properties'
-                  value='sustainable properties'
-                />
                 <label for='sustainable properties'>
                   Travel Sustainable properties
                 </label>
@@ -412,13 +402,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='3 stars'
+                name='3 stars'
+                value='3 stars'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='3 stars'
-                  name='3 stars'
-                  value='3 stars'
-                />
                 <label for='sustainable properties'>3 stars</label>
               </NavLink>
             </div>
@@ -430,13 +420,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='4 stars'
+                name='4 stars'
+                value='4 stars'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='4 stars'
-                  name='4 stars'
-                  value='4 stars'
-                />
                 <label for='sustainable properties'>4 stars</label>
               </NavLink>
             </div>
@@ -448,13 +438,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='5 stars'
+                name='5 stars'
+                value='5 stars'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='5 stars'
-                  name='5 stars'
-                  value='5 stars'
-                />
                 <label for='sustainable properties'>5 stars</label>
               </NavLink>
             </div>
@@ -466,13 +456,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='unrated'
+                name='unrated'
+                value='unrated'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='unrated'
-                  name='unrated'
-                  value='unrated'
-                />
                 <label for='sustainable properties'>Unrated</label>
               </NavLink>
             </div>
@@ -490,8 +480,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='3 km' name='3 km' value='3 km' />
               <NavLink to=''>
-                <input type='checkbox' id='3 km' name='3 km' value='3 km' />
                 <label for='sustainable properties'>Less than 3 km</label>
               </NavLink>
             </div>
@@ -503,8 +493,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='5 km' name='5 km' value='5 km' />
               <NavLink to=''>
-                <input type='checkbox' id='5 km' name='5 km' value='5 km' />
                 <label for='sustainable properties'>Less than 5 km</label>
               </NavLink>
             </div>
@@ -527,13 +517,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='hiking' name='hiking' value='hiking' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='hiking'
-                  name='hiking'
-                  value='hiking'
-                />
                 <label for='hiking'>Hiking</label>
               </NavLink>
             </div>
@@ -545,13 +530,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bowling'
+                name='bowling'
+                value='bowling'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bowling'
-                  name='bowling'
-                  value='bowling'
-                />
                 <label for='bowling'>Bowling</label>
               </NavLink>
             </div>
@@ -563,13 +548,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='tennis' name='tennis' value='tennis' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='tennis'
-                  name='tennis'
-                  value='tennis'
-                />
                 <label for='tennis'>Tennis court</label>
               </NavLink>
             </div>
@@ -581,8 +561,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='golf' name='golf' value='golf' />
               <NavLink to=''>
-                <input type='checkbox' id='golf' name='golf' value='golf' />
                 <label for='golf'>Golf course (within 2 miles)</label>
               </NavLink>
             </div>
@@ -594,13 +574,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='mini golf'
+                name='mini golf'
+                value='mini golf'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='mini golf'
-                  name='mini golf'
-                  value='mini golf'
-                />
                 <label for='mini golf'>Mini golf</label>
               </NavLink>
             </div>
@@ -612,8 +592,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='spa' name='spa' value='spa' />
               <NavLink to=''>
-                <input type='checkbox' id='spa' name='spa' value='spa' />
                 <label for='spa'>Spa</label>
               </NavLink>
             </div>
@@ -625,13 +605,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='entertainment'
+                name='entertainment'
+                value='entertainment'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='entertainment'
-                  name='entertainment'
-                  value='entertainment'
-                />
                 <label for='entertainment'>Evening entertainment</label>
               </NavLink>
             </div>
@@ -643,8 +623,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='tub' name='tub' value='tub' />
               <NavLink to=''>
-                <input type='checkbox' id='tub' name='tub' value='tub' />
                 <label for='tub'>Hot tub/Jacuzzi</label>
               </NavLink>
             </div>
@@ -656,8 +636,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='sauna' name='sauna' value='sauna' />
               <NavLink to=''>
-                <input type='checkbox' id='sauna' name='sauna' value='sauna' />
                 <label for='sauna'>Sauna</label>
               </NavLink>
             </div>
@@ -669,8 +649,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='bath' name='bath' value='bath' />
               <NavLink to=''>
-                <input type='checkbox' id='bath' name='bath' value='bath' />
                 <label for='bath'>Turkish/Steam Bath</label>
               </NavLink>
             </div>
@@ -682,13 +662,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='fitness'
+                name='fitness'
+                value='fitness'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='fitness'
-                  name='fitness'
-                  value='fitness'
-                />
                 <label for='fitness'>Fitness</label>
               </NavLink>
             </div>
@@ -700,8 +680,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='pool' name='pool' value='pool' />
               <NavLink to=''>
-                <input type='checkbox' id='pool' name='pool' value='pool' />
                 <label for='pool'>Indoor pool</label>
               </NavLink>
             </div>
@@ -713,13 +693,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='spring bath'
+                name='spring bath'
+                value='spring bath'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='spring bath'
-                  name='spring bath'
-                  value='spring bath'
-                />
                 <label for='spring bath'>Hot spring bath</label>
               </NavLink>
             </div>
@@ -731,13 +711,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='open-air bath'
+                name='open-air bath'
+                value='open-air bath'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='open-air bath'
-                  name='open-air bath'
-                  value='open-air bath'
-                />
                 <label for='open-air bath'>Open-air bath</label>
               </NavLink>
             </div>
@@ -749,13 +729,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='massage'
+                name='massage'
+                value='massage'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='massage'
-                  name='massage'
-                  value='massage'
-                />
                 <label for='massage'>Couples' massage</label>
               </NavLink>
             </div>
@@ -767,13 +747,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='full-body massage'
+                name='full-body massage'
+                value='full-body massage'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='full-body massage'
-                  name='full-body massage'
-                  value='full-body massage'
-                />
                 <label for='full-body massage'>Full-body massage</label>
               </NavLink>
             </div>
@@ -785,8 +765,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='music' name='music' value='music' />
               <NavLink to=''>
-                <input type='checkbox' id='music' name='music' value='music' />
                 <label for='music'>Live music/Performance</label>
               </NavLink>
             </div>
@@ -804,8 +784,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='deals' name='deals' value='deals' />
               <NavLink to=''>
-                <input type='checkbox' id='deals' name='deals' value='deals' />
                 <label for='deals'>All Deals</label>
               </NavLink>
             </div>
@@ -823,13 +803,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='policy' name='policy' value='policy' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='policy'
-                  name='policy'
-                  value='policy'
-                />
                 <label for='policy'>Free cancellation</label>
               </NavLink>
             </div>
@@ -841,8 +816,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='card' name='card' value='card' />
               <NavLink to=''>
-                <input type='checkbox' id='card' name='card' value='card' />
                 <label for='card'>Book without credit card</label>
               </NavLink>
             </div>
@@ -854,13 +829,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='prepayment'
+                name='prepayment'
+                value='prepayment'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='prepayment'
-                  name='prepayment'
-                  value='prepayment'
-                />
                 <label for='prepayment'>No prepayment</label>
               </NavLink>
             </div>
@@ -878,13 +853,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='kitchen'
+                name='kitchen'
+                value='kitchen'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='kitchen'
-                  name='kitchen'
-                  value='kitchen'
-                />
                 <label for='kitchen'>Kitchen facilities</label>
               </NavLink>
             </div>
@@ -896,13 +871,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='breakfast included'
+                name='breakfast included'
+                value='breakfast included'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='breakfast included'
-                  name='breakfast included'
-                  value='breakfast included'
-                />
                 <label for='breakfast included'>Breakfast Included</label>
               </NavLink>
             </div>
@@ -920,13 +895,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='entire homes'
+                name='entire homes'
+                value='entire homes'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='entire homes'
-                  name='entire homes'
-                  value='entire homes'
-                />
                 <label for='entire homes'>Entire homes & apartments</label>
               </NavLink>
             </div>
@@ -944,13 +919,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='guesthouses'
+                name='guesthouses'
+                value='guesthouses'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='guesthouses'
-                  name='guesthouses'
-                  value='guesthouses'
-                />
                 <label for='guesthouses'>Guesthouses</label>
               </NavLink>
             </div>
@@ -962,13 +937,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='apartments'
+                name='apartments'
+                value='apartments'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='apartments'
-                  name='apartments'
-                  value='apartments'
-                />
                 <label for='apartments'>Apartments</label>
               </NavLink>
             </div>
@@ -980,13 +955,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='hotels' name='hotels' value='hotels' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='hotels'
-                  name='hotels'
-                  value='hotels'
-                />
                 <label for='hotels'>Hotels</label>
               </NavLink>
             </div>
@@ -998,13 +968,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bed and breakfasts'
+                name='bed and breakfasts'
+                value='bed and breakfasts'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bed and breakfasts'
-                  name='bed and breakfasts'
-                  value='bed and breakfasts'
-                />
                 <label for='bed and breakfasts'>Bed and Breakfasts</label>
               </NavLink>
             </div>
@@ -1016,13 +986,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='villas' name='villas' value='villas' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='villas'
-                  name='villas'
-                  value='villas'
-                />
                 <label for='villas'>Villas</label>
               </NavLink>
             </div>
@@ -1034,13 +999,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='homestays'
+                name='homestays'
+                value='homestays'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='homestays'
-                  name='homestays'
-                  value='homestays'
-                />
                 <label for='homestays'>Homestays</label>
               </NavLink>
             </div>
@@ -1052,13 +1017,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='vacation homes'
+                name='vacation homes'
+                value='vacation homes'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='vacation homes'
-                  name='vacation homes'
-                  value='vacation homes'
-                />
                 <label for='vacation homes'>Vacation Homes</label>
               </NavLink>
             </div>
@@ -1070,13 +1035,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='lodges' name='lodges' value='lodges' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='lodges'
-                  name='lodges'
-                  value='lodges'
-                />
                 <label for='lodges'>Lodges</label>
               </NavLink>
             </div>
@@ -1094,13 +1054,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='centaurus mall'
+                name='centaurus mall'
+                value='centaurus mall'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='centaurus mall'
-                  name='centaurus mall'
-                  value='centaurus mall'
-                />
                 <label for='centaurus mall'>The Centaurus Mall</label>
               </NavLink>
             </div>
@@ -1118,13 +1078,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='double bed'
+                name='double bed'
+                value='double bed'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='double bed'
-                  name='double bed'
-                  value='double bed'
-                />
                 <label for='double bed'>Double bed</label>
               </NavLink>
             </div>
@@ -1142,13 +1102,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='wonderful'
+                name='wonderful'
+                value='wonderful'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='wonderful'
-                  name='wonderful'
-                  value='wonderful'
-                />
                 <label for='wonderful'>Wonderful: 9+</label>
               </NavLink>
             </div>
@@ -1165,13 +1125,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='very good'
+                name='very good'
+                value='very good'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='very good'
-                  name='very good'
-                  value='very good'
-                />
                 <label for='very good'>Very Good: 8+</label>
               </NavLink>
             </div>
@@ -1188,8 +1148,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='good' name='good' value='good' />
               <NavLink to=''>
-                <input type='checkbox' id='good' name='good' value='good' />
                 <label for='good'>Good: 7+</label>
               </NavLink>
             </div>
@@ -1206,13 +1166,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='pleasant'
+                name='pleasant'
+                value='pleasant'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='pleasant'
-                  name='pleasant'
-                  value='pleasant'
-                />
                 <label for='pleasant'>Pleasant: 6+</label>
               </NavLink>
             </div>
@@ -1235,13 +1195,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='parking'
+                name='parking'
+                value='parking'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='parking'
-                  name='parking'
-                  value='parking'
-                />
                 <label for='parking'>Parking</label>
               </NavLink>
             </div>
@@ -1253,8 +1213,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='wifi' name='wifi' value='wifi' />
               <NavLink to=''>
-                <input type='checkbox' id='wifi' name='wifi' value='wifi' />
                 <label for='wifi'>Free WiFi</label>
               </NavLink>
             </div>
@@ -1266,13 +1226,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='airport'
+                name='airport'
+                value='airport'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='airport'
-                  name='airport'
-                  value='airport'
-                />
                 <label for='airport'>Airport shuttle</label>
               </NavLink>
             </div>
@@ -1284,13 +1244,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='family rooms'
+                name='family rooms'
+                value='family rooms'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='family rooms'
-                  name='family rooms'
-                  value='family rooms'
-                />
                 <label for='family rooms'>Family rooms</label>
               </NavLink>
             </div>
@@ -1302,13 +1262,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='non-smoking rooms'
+                name='non-smoking rooms'
+                value='non-smoking rooms'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='non-smoking rooms'
-                  name='non-smoking rooms'
-                  value='non-smoking rooms'
-                />
                 <label for='non-smoking rooms'>Non-smoking rooms</label>
               </NavLink>
             </div>
@@ -1320,13 +1280,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='pet friendly'
+                name='pet friendly'
+                value='pet friendly'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='pet friendly'
-                  name='pet friendly'
-                  value='pet friendly'
-                />
                 <label for='pet friendly'>Pet friendly</label>
               </NavLink>
             </div>
@@ -1338,13 +1298,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='front desk'
+                name='front desk'
+                value='front desk'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='front desk'
-                  name='front desk'
-                  value='front desk'
-                />
                 <label for='front desk'>24-hour front desk</label>
               </NavLink>
             </div>
@@ -1356,13 +1316,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='room service'
+                name='room service'
+                value='room service'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='room service'
-                  name='room service'
-                  value='room service'
-                />
                 <label for='room service'>Room service</label>
               </NavLink>
             </div>
@@ -1374,13 +1334,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='disabled guests'
+                name='disabled guests'
+                value='disabled guests'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='disabled guests'
-                  name='disabled guests'
-                  value='disabled guests'
-                />
                 <label for='disabled guests'>
                   Facilities for disabled guests
                 </label>
@@ -1394,13 +1354,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='restaurant'
+                name='restaurant'
+                value='restaurant'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='restaurant'
-                  name='restaurant'
-                  value='restaurant'
-                />
                 <label for='restaurant'>Restaurant</label>
               </NavLink>
             </div>
@@ -1412,13 +1372,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='fitness center'
+                name='fitness center'
+                value='fitness center'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='fitness center'
-                  name='fitness center'
-                  value='fitness center'
-                />
                 <label for='fitness center'>Fitness center</label>
               </NavLink>
             </div>
@@ -1430,8 +1390,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='spa' name='spa' value='spa' />
               <NavLink to=''>
-                <input type='checkbox' id='spa' name='spa' value='spa' />
                 <label for='spa'>Spa</label>
               </NavLink>
             </div>
@@ -1443,13 +1403,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='swimming pool'
+                name='swimming pool'
+                value='swimming pool'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='swimming pool'
-                  name='swimming pool'
-                  value='swimming pool'
-                />
                 <label for='swimming pool'>Swimming pool</label>
               </NavLink>
             </div>
@@ -1461,13 +1421,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='airport shuttle (free)'
+                name='airport shuttle (free)'
+                value='airport shuttle (free)'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='airport shuttle (free)'
-                  name='airport shuttle (free)'
-                  value='airport shuttle (free)'
-                />
                 <label for='airport shuttle (free)'>
                   Airport shuttle (free)
                 </label>
@@ -1487,13 +1447,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='private bathroom'
+                name='private bathroom'
+                value='private bathroom'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='private bathroom'
-                  name='private bathroom'
-                  value='private bathroom'
-                />
                 <label for='private bathroom'>Private bathroom</label>
               </NavLink>
             </div>
@@ -1505,13 +1465,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='balcony'
+                name='balcony'
+                value='balcony'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='balcony'
-                  name='balcony'
-                  value='balcony'
-                />
                 <label for='balcony'>Balcony</label>
               </NavLink>
             </div>
@@ -1523,13 +1483,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='air conditioning'
+                name='air conditioning'
+                value='air conditioning'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='air conditioning'
-                  name='air conditioning'
-                  value='air conditioning'
-                />
                 <label for='air conditioning'>Air conditioning</label>
               </NavLink>
             </div>
@@ -1541,13 +1501,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bathtub'
+                name='bathtub'
+                value='bathtub'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bathtub'
-                  name='bathtub'
-                  value='bathtub'
-                />
                 <label for='bathtub'>Bathtub</label>
               </NavLink>
             </div>
@@ -1559,13 +1519,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='kitchen'
+                name='kitchen'
+                value='kitchen'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='kitchen'
-                  name='kitchen'
-                  value='kitchen'
-                />
                 <label for='kitchen'>Kitchen/Kitchenette</label>
               </NavLink>
             </div>
@@ -1577,8 +1537,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='view' name='view' value='view' />
               <NavLink to=''>
-                <input type='checkbox' id='view' name='view' value='view' />
                 <label for='view'>View</label>
               </NavLink>
             </div>
@@ -1590,13 +1550,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='terrace'
+                name='terrace'
+                value='terrace'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='terrace'
-                  name='terrace'
-                  value='terrace'
-                />
                 <label for='terrace'>Terrace</label>
               </NavLink>
             </div>
@@ -1608,13 +1568,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='spa tub'
+                name='spa tub'
+                value='spa tub'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='spa tub'
-                  name='spa tub'
-                  value='spa tub'
-                />
                 <label for='spa tub'>Spa tub</label>
               </NavLink>
             </div>
@@ -1626,13 +1586,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='hot tub'
+                name='hot tub'
+                value='hot tub'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='hot tub'
-                  name='hot tub'
-                  value='hot tub'
-                />
                 <label for='hot tub'>Hot tub</label>
               </NavLink>
             </div>
@@ -1644,13 +1604,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='flat-screen tv'
+                name='lat-screen tv'
+                value='lat-screen tv'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='flat-screen tv'
-                  name='lat-screen tv'
-                  value='lat-screen tv'
-                />
                 <label for='lat-screen tv'>Flat-screen TV</label>
               </NavLink>
             </div>
@@ -1662,13 +1622,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='kitchen'
+                name='kitchen'
+                value='kitchen'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='kitchen'
-                  name='kitchen'
-                  value='kitchen'
-                />
                 <label for='kitchen'>Kitchen</label>
               </NavLink>
             </div>
@@ -1680,13 +1640,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='soundproof'
+                name='soundproof'
+                value='soundproof'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='soundproof'
-                  name='soundproof'
-                  value='soundproof'
-                />
                 <label for='soundproof'>Soundproof</label>
               </NavLink>
             </div>
@@ -1698,13 +1658,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='washing machine'
+                name='washing machine'
+                value='washing machine'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='washing machine'
-                  name='washing machine'
-                  value='washing machine'
-                />
                 <label for='washing machine'>Washing machine</label>
               </NavLink>
             </div>
@@ -1716,13 +1676,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='coffee/tea maker'
+                name='coffee/tea maker'
+                value='coffee/tea maker'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='coffee/tea maker'
-                  name='coffee/tea maker'
-                  value='coffee/tea maker'
-                />
                 <label for='coffee/tea maker'>Coffee/Tea maker</label>
               </NavLink>
             </div>
@@ -1734,13 +1694,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='electric kettle'
+                name='electric kettle'
+                value='electric kettle'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='electric kettle'
-                  name='electric kettle'
-                  value='electric kettle'
-                />
                 <label for='electric kettle'>Electric kettle</label>
               </NavLink>
             </div>
@@ -1752,13 +1712,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='laptop-friendly workspace'
+                name='laptop-friendly workspace'
+                value='laptop-friendly workspace'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='laptop-friendly workspace'
-                  name='laptop-friendly workspace'
-                  value='laptop-friendly workspace'
-                />
                 <label for='laptop-friendly workspace'>
                   Laptop-friendly workspace
                 </label>
@@ -1772,13 +1732,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='coffee machine'
+                name='coffee machine'
+                value='coffee machine'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='coffee machine'
-                  name='coffee machine'
-                  value='coffee machine'
-                />
                 <label for='coffee machine'>Coffee machine</label>
               </NavLink>
             </div>
@@ -1790,8 +1750,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='patio' name='patio' value='patio' />
               <NavLink to=''>
-                <input type='checkbox' id='patio' name='patio' value='patio' />
                 <label for='patio'>Patio</label>
               </NavLink>
             </div>
@@ -1809,13 +1769,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='E-11 sector'
+                name='E-11 sector'
+                value='E-11 sector'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='E-11 sector'
-                  name='E-11 sector'
-                  value='E-11 sector'
-                />
                 <label for='E-11 sector'>E-11 Sector</label>
               </NavLink>
             </div>
@@ -1827,13 +1787,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='F-6 sector'
+                name='F-6 sector'
+                value='F-6 sector'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='F-6 sector'
-                  name='F-6 sector'
-                  value='F-6 sector'
-                />
                 <label for='F-6 sector'>F-6 Sector</label>
               </NavLink>
             </div>
@@ -1845,13 +1805,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='blue area'
+                name='blue area'
+                value='blue area'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='blue area'
-                  name='blue area'
-                  value='blue area'
-                />
                 <label for='blue area'>Blue Area</label>
               </NavLink>
             </div>
@@ -1863,13 +1823,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='G-8 sector'
+                name='G-8 sector'
+                value='G-8 sector'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='G-8 sector'
-                  name='G-8 sector'
-                  value='G-8 sector'
-                />
                 <label for='G-8 sector'>G-8 Sector</label>
               </NavLink>
             </div>
@@ -1881,13 +1841,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='H-8 sector'
+                name='H-8 sector'
+                value='H-8 sector'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='H-8 sector'
-                  name='H-8 sector'
-                  value='H-8 sector'
-                />
                 <label for='H-8 sector'>H-8 Sector</label>
               </NavLink>
             </div>
@@ -1905,13 +1865,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='wheelchair accessible'
+                name='wheelchair accessible'
+                value='wheelchair accessible'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='wheelchair accessible'
-                  name='wheelchair accessible'
-                  value='wheelchair accessible'
-                />
                 <label for='wheelchair accessible'>Wheelchair accessible</label>
               </NavLink>
             </div>
@@ -1923,13 +1883,8 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input type='checkbox' id='toilet' name='toilet' value='toilet' />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='toilet'
-                  name='toilet'
-                  value='toilet'
-                />
                 <label for='toilet'>Toilet with grab rails</label>
               </NavLink>
             </div>
@@ -1941,13 +1896,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='raised toilet'
+                name='raised toilet'
+                value='raised toilet'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='raised toilet'
-                  name='raised toilet'
-                  value='raised toilet'
-                />
                 <label for='raised toilet'>Raised toilet</label>
               </NavLink>
             </div>
@@ -1959,13 +1914,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='lowered sink'
+                name='lowered sink'
+                value='lowered sink'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='lowered sink'
-                  name='lowered sink'
-                  value='lowered sink'
-                />
                 <label for='lowered sink'>Lowered sink</label>
               </NavLink>
             </div>
@@ -1977,13 +1932,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='bathroom emergency cord'
+                name='bathroom emergency cord'
+                value='bathroom emergency cord'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='bathroom emergency cord'
-                  name='bathroom emergency cord'
-                  value='bathroom emergency cord'
-                />
                 <label for='bathroom emergency cord'>
                   Bathroom emergency cord
                 </label>
@@ -2003,13 +1958,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='unit located'
+                name='unit located'
+                value='unit located'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='unit located'
-                  name='unit located'
-                  value='unit located'
-                />
                 <label for='unit located'>
                   Entire unit located on ground floor
                 </label>
@@ -2023,13 +1978,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='upper floors'
+                name='upper floors'
+                value='upper floors'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='upper floors'
-                  name='upper floors'
-                  value='upper floors'
-                />
                 <label for='upper floors'>
                   Upper floors accessible by elevator
                 </label>
@@ -2043,13 +1998,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='entire unit'
+                name='entire unit'
+                value='entire unit'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='entire unit'
-                  name='entire unit'
-                  value='entire unit'
-                />
                 <label for='entire unit'>
                   Entire unit wheelchair accessible
                 </label>
@@ -2063,13 +2018,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='toilet with grab rails'
+                name='toilet with grab rails'
+                value='toilet with grab rails'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='toilet with grab rails'
-                  name='toilet with grab rails'
-                  value='toilet with grab rails'
-                />
                 <label for='toilet with grab rails'>
                   Toilet with grab rails
                 </label>
@@ -2083,13 +2038,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='adapted bath'
+                name='adapted bath'
+                value='adapted bath'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='adapted bath'
-                  name='adapted bath'
-                  value='adapted bath'
-                />
                 <label for='adapted bath'>Adapted bath</label>
               </NavLink>
             </div>
@@ -2101,13 +2056,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='roll-in shower'
+                name='roll-in shower'
+                value='roll-in shower'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='roll-in shower'
-                  name='roll-in shower'
-                  value='roll-in shower'
-                />
                 <label for='roll-in shower'>Roll-in shower</label>
               </NavLink>
             </div>
@@ -2119,13 +2074,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='walk-in shower'
+                name='walk-in shower'
+                value='walk-in shower'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='walk-in shower'
-                  name='walk-in shower'
-                  value='walk-in shower'
-                />
                 <label for='walk-in shower'>Walk-in shower</label>
               </NavLink>
             </div>
@@ -2137,13 +2092,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='raised toilet'
+                name='raised toilet'
+                value='raised toilet'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='raised toilet'
-                  name='raised toilet'
-                  value='raised toilet'
-                />
                 <label for='raised toilet'>Raised toilet</label>
               </NavLink>
             </div>
@@ -2155,13 +2110,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='lower sink'
+                name='lower sink'
+                value='lower sink'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='lower sink'
-                  name='lower sink'
-                  value='lower sink'
-                />
                 <label for='lower sink'>Lower sink</label>
               </NavLink>
             </div>
@@ -2173,13 +2128,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='emergency cord in bathroom'
+                name='emergency cord in bathroom'
+                value='emergency cord in bathroom'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='emergency cord in bathroom'
-                  name='emergency cord in bathroom'
-                  value='emergency cord in bathroom'
-                />
                 <label for='emergency cord in bathroom'>
                   Emergency cord in bathroom
                 </label>
@@ -2193,13 +2148,13 @@ const List = () => {
           </div>
           <div className='previous_filter'>
             <div className='input-1'>
+              <input
+                type='checkbox'
+                id='shower chair'
+                name='shower chair'
+                value='shower chair'
+              />
               <NavLink to=''>
-                <input
-                  type='checkbox'
-                  id='shower chair'
-                  name='shower chair'
-                  value='shower chair'
-                />
                 <label for='shower chair'>Shower chair</label>
               </NavLink>
             </div>

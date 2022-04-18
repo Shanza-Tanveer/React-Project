@@ -1,0 +1,64 @@
+.search_form {
+  margin-top: 36px;
+  margin-left: 12rem;
+  margin-right: 96rem;
+  margin-bottom: 12px;
+  background-color: #fdd023;
+  border-style: solid;
+  border-color: #fdd023;
+  border-radius: 0.4rem;
+}
+
+.search_form input {
+  padding: 8px;
+}
+
+.search_form select {
+  padding: 8px;
+}
+
+.search_form div {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-left: 24px;
+}
+
+.search_form h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-top: 16px;
+  margin-right: 173px;
+}
+
+.search_form label {
+  font-size: 13px;
+  color: black;
+  line-height: 23px;
+}
+
+.search_form button {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+  color: white;
+  background-color: darkblue;
+  padding: 2px;
+  width: 87%;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.check-input {
+  width: 19px;
+  height: 18px;
+  /* margin-left: 9px; */
+  margin-top: 2px;
+}
+
+.form-label {
+  margin-left: 9px;
+}

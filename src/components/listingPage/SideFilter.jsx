@@ -1,36 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './listing.css'
+import './sidefilter.css'
 
-const List = () => {
+const SideFilter = () => {
   return (
     <>
-      {/* <div>
-        <div>
-          <a href=''>
-            <img src={hotelImg} alt='' />
-          </a>
-        </div>
-        <div>
-          <a href=''>
-            <h1>{hotelName}</h1>
-          </a>
-          <a href=''>
-            <address>{address}</address>
-          </a>
-          <p>{property}</p>
-          <button>Gateway Deal</button>
-          <p>{roomName}</p>
-          <p>{roomType}</p>
-          <p>{facilities}</p>
-          <p>{cancellation}</p>
-          <p>{cancellationTime}</p>
-          <p>{leftRooms}</p>
-          <p>{roomPrice}</p>
-          <p>{taxes}</p>
-          <button>See Availability</button>
-        </div>
-      </div> */}
       <div className='filterlist'>
         {/* 1st div */}
         <div className='filter_h1'>
@@ -2170,4 +2144,4 @@ const List = () => {
   )
 }
 
-export default List
+export default SideFilter

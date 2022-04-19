@@ -1,14 +1,14 @@
 import React from 'react'
-import List from './List'
-import Listing from './Listing'
+import RoomListing from './RoomListing'
 import Search from './Search'
+import SideFilter from './SideFilter'
 
 const Rooms = () => {
   return (
     <>
-      {/* <Listing /> */}
+      <RoomListing />
       <Search />
-      <List />
+      <SideFilter />
     </>
   )
 }

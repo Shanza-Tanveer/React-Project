@@ -2,7 +2,7 @@
 
 .filterlist {
   position: absolute;
-  margin-left: 120px;
+  margin-left: 141px;
 }
 
 .filter_h1 {
@@ -46,7 +46,7 @@
 
 .previous_filter {
   display: flex;
-  margin-top: 0px;
+  justify-content: space-between;
 }
 
 .input-1 {
@@ -66,31 +66,14 @@
   cursor: pointer;
 }
 
-.para p {
-  margin-left: 170px;
+.previous_filter p {
+  margin-right: 14px;
   font-size: 13px;
   color: black;
 }
 
-/* .input-2 {
-  margin-left: 10px;
-} */
-
-/* .input-2 input {
-  width: 23px;
-  height: 21px;
-  cursor: pointer;
-} */
-
-/* .input-2 label {
-  margin-left: 8px;
-  font-size: 16px;
-  color: black;
-  cursor: pointer;
-} */
-
-.para-2 p {
-  margin-left: 141px;
+/* .para-2 p {
+  margin-left: 136px;
   font-size: 13px;
   color: black;
 }
@@ -99,11 +82,11 @@
   margin-left: 95px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 3rd div */
 
-.budget {
+/* .budget {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -117,7 +100,7 @@
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
 .toogle_switch {
   display: flex;
@@ -190,7 +173,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.switch-para p {
+/* .switch-para p {
   margin-left: 76px;
   font-size: 13px;
   color: black;
@@ -212,11 +195,11 @@ input:checked + .slider:before {
   margin-left: 118px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 4th div */
 
-.popular_filter {
+/* .popular_filter {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -230,9 +213,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.popular_para1 p {
+/* .popular_para1 p {
   margin-left: 159px;
   font-size: 13px;
   color: black;
@@ -278,7 +261,7 @@ input:checked + .slider:before {
   margin-left: 143px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 5th div */
 
@@ -322,7 +305,7 @@ input:checked + .slider:before {
 }
 
 .health_saftey_para p {
-  margin-left: 203px;
+  margin-left: 210px;
   margin-top: 14px;
   font-size: 13px;
   color: black;
@@ -330,7 +313,7 @@ input:checked + .slider:before {
 
 /* 6th div */
 
-.sustainability {
+/* .sustainability {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -344,17 +327,17 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.sustainability_para p {
+/* .sustainability_para p {
   margin-left: 40px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 7th para */
 
-.star_rating {
+/* .star_rating {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -368,9 +351,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.rating_para p {
+/* .rating_para p {
   margin-left: 160px;
   font-size: 13px;
   color: black;
@@ -392,11 +375,11 @@ input:checked + .slider:before {
   margin-left: 152px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 8th div */
 
-.distance {
+/* .distance {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -410,9 +393,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.distance_para p {
+/* .distance_para p {
   margin-left: 119px;
   font-size: 13px;
   color: black;
@@ -422,16 +405,16 @@ input:checked + .slider:before {
   margin-left: 119px;
   font-size: 13px;
   color: black;
-}
+} */
 
-.distance_para2 p {
+.distance_para p {
   font-size: 13px;
   margin-left: 38px;
   color: black;
 }
 /* 9th div */
 
-.fun_things {
+/* .fun_things {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -445,9 +428,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.fun_things_para p {
+/* .fun_things_para p {
   font-size: 13px;
   margin-left: 161px;
   color: black;
@@ -546,11 +529,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 69px;
   color: black;
-}
+} */
 
 /* 10th div */
 
-.deal {
+/* .deal {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -564,17 +547,17 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.deals_para p {
+/* .deals_para p {
   font-size: 13px;
   margin-left: 153px;
   color: black;
-}
+} */
 
 /* 11th div */
 
-.policy {
+/* .policy {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -588,9 +571,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.policy_para p {
+/* .policy_para p {
   font-size: 13px;
   margin-left: 104px;
   color: black;
@@ -606,11 +589,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 112px;
   color: black;
-}
+} */
 
 /* 12th div */
 
-.meals {
+/* .meals {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -624,9 +607,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.meals_para p {
+/* .meals_para p {
   font-size: 13px;
   margin-left: 106px;
   color: black;
@@ -636,11 +619,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 96px;
   color: black;
-}
+} */
 
 /* 13th div */
 
-.entire_places {
+/* .entire_places {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -654,17 +637,17 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.entire_places_para p {
+/* .entire_places_para p {
   font-size: 13px;
   margin-left: 49px;
   color: black;
-}
+} */
 
 /* 14th div */
 
-.property_type {
+/* .property_type {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -678,9 +661,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.property_type_para p {
+/* .property_type_para p {
   font-size: 13px;
   margin-left: 126px;
   color: black;
@@ -726,11 +709,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 159px;
   color: black;
-}
+} */
 
 /* 15th div */
 
-.landmarks {
+/* .landmarks {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -744,17 +727,17 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.landmarks_para p {
+/* .landmarks_para p {
   font-size: 13px;
   margin-left: 93px;
   color: black;
-}
+} */
 
 /* 16th div */
 
-.preference {
+/* .preference {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -768,17 +751,17 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.preference_para p {
+/* .preference_para p {
   font-size: 13px;
   margin-left: 129px;
   color: black;
-}
+} */
 
 /* 17th div */
 
-.review {
+/* .review {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -792,13 +775,13 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.review_para p {
+/* .review_para p {
   margin-left: 112px;
   font-size: 13px;
   color: black;
-}
+} */
 
 .review_para1 p {
   margin-left: 39px;
@@ -806,7 +789,7 @@ input:checked + .slider:before {
   color: black;
 }
 
-.review_para2 p {
+/* .review_para2 p {
   margin-left: 109px;
   font-size: 13px;
   color: black;
@@ -822,11 +805,11 @@ input:checked + .slider:before {
   margin-left: 125px;
   font-size: 13px;
   color: black;
-}
+} */
 
 /* 18th div */
 
-.facility {
+/* .facility {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -840,9 +823,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.facilities_para p {
+/* .facilities_para p {
   font-size: 13px;
   margin-left: 154px;
   color: black;
@@ -924,11 +907,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 92px;
   color: black;
-}
+} */
 
 /* 19th div */
 
-.room_facility {
+/* .room_facility {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -942,9 +925,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.room_facility_para p {
+/* .room_facility_para p {
   font-size: 13px;
   margin-left: 102px;
   color: black;
@@ -1050,11 +1033,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 172px;
   color: black;
-}
+} */
 
 /* 20th div */
 
-.neighborhood {
+/* .neighborhood {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -1068,9 +1051,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.neighborhood_para p {
+/* .neighborhood_para p {
   font-size: 13px;
   margin-left: 135px;
   color: black;
@@ -1098,11 +1081,11 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 143px;
   color: black;
-}
+} */
 
 /* 21th div */
 
-.property_accessibility {
+/* .property_accessibility {
   border-style: solid;
   border-color: black;
   padding-bottom: 10px;
@@ -1116,9 +1099,9 @@ input:checked + .slider:before {
   margin-top: 13px;
   margin-bottom: 13px;
   font-weight: bold;
-}
+} */
 
-.property_accessibility_para p {
+/* .property_accessibility_para p {
   font-size: 13px;
   margin-left: 72px;
   color: black;
@@ -1146,7 +1129,7 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 54px;
   color: black;
-}
+} */
 
 /* 22th div */
 
@@ -1167,7 +1150,7 @@ input:checked + .slider:before {
   font-weight: bold;
 }
 
-.room_accessibility_para p {
+/* .room_accessibility_para p {
   font-size: 13px;
   margin-left: 14px;
   color: black;
@@ -1231,4 +1214,4 @@ input:checked + .slider:before {
   font-size: 13px;
   margin-left: 132px;
   color: black;
-}
+} */

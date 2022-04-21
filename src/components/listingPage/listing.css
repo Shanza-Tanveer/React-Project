@@ -5,18 +5,21 @@
 
 .outer_div {
   border-style: solid;
-  border-color: black;
+  border-color: grey;
+  border-width: thin;
   float: right;
-  margin-right: 129px;
-  margin-top: 37px;
+  margin-right: 125px;
+  margin-top: 18px;
 }
 
 .upper_div {
   display: flex;
+  justify-content: space-between;
 }
 
 .lower_div {
   display: flex;
+  justify-content: space-between;
   margin-top: 9px;
 }
 
@@ -36,19 +39,28 @@
   font-weight: bold;
 }
 
+.first_div_p {
+  margin-top: 25px;
+}
+
 .first_div p {
   font-size: 12px;
   height: 10px;
+  color: black;
 }
 
-.first_div h1 {
-  height: 30px;
+.first_div h2 {
+  height: 19px;
   font-weight: bold;
   color: #0071c2;
 }
 
-.second_div {
-  margin-left: 250px;
+.first_div_h2 {
+  max-width: 360px;
+}
+
+.first_div h2:hover {
+  color: brown;
 }
 
 .third_div {
@@ -58,12 +70,16 @@
 .third_div p {
   height: 11px;
   font-size: 12px;
+  color: black;
+  cursor: auto;
 }
 
 .third_div_p p {
   height: 11px;
   font-size: 12px;
   font-weight: bold;
+  color: black;
+  cursor: auto;
 }
 
 .third_div_p1 p {
@@ -71,6 +87,7 @@
   font-size: 12px;
   font-weight: bold;
   color: #008009;
+  cursor: auto;
 }
 
 .third_div_p2 p {
@@ -81,30 +98,34 @@
 }
 
 .fourth_div {
-  margin-left: 11px;
   margin-top: 18px;
 }
 
 .fourth_div p {
   font-size: 12px;
   height: 11px;
-  margin-left: 47px;
+  text-align: right;
+  color: black;
+  cursor: auto;
 }
 
 .stays p {
   font-size: 12px;
   height: 11px;
-  margin-left: 82px;
+  text-align: right;
+  color: black;
+  cursor: auto;
 }
 
 .fourth_div h2 {
   height: 19px;
-  margin-left: 66px;
+  text-align: right;
+  color: black;
+  cursor: auto;
 }
 
 .fourth_div button {
-  width: 103%;
-  height: 37%;
+  padding: 10px 31px;
   background-color: #0071c2;
   border-color: #0071c2;
   border-style: none;
@@ -118,15 +139,20 @@
 
 .room_reviews p {
   font-size: 12px;
-  margin-left: 10px;
+  color: black;
 }
 
 .room_reviews h6 {
   font-size: 15px;
   height: 14px;
   margin-top: 3px;
+  margin-right: 7px;
+  color: black;
 }
 
-.room_reviews span {
-  margin-left: 9px;
+.list_heading h1 {
+  text-align: center;
+  margin-right: 123px;
+  margin-top: 49px;
+  font-weight: bold;
 }

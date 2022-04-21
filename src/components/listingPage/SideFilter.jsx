@@ -22,7 +22,7 @@ const SideFilter = () => {
                 <label for='villas'>Villas</label>
               </NavLink>
             </div>
-            <div className='para'>
+            <div>
               <NavLink to=''>
                 <p>5</p>
               </NavLink>
@@ -40,7 +40,7 @@ const SideFilter = () => {
                 <label for='homestays'>Homestays</label>
               </NavLink>
             </div>
-            <div className='para-2'>
+            <div>
               <NavLink to=''>
                 <p>8</p>
               </NavLink>
@@ -58,7 +58,7 @@ const SideFilter = () => {
                 <label for='homestays'>Bed and Breakfasts</label>
               </NavLink>
             </div>
-            <div className='para-3'>
+            <div>
               <NavLink to=''>
                 <p>4</p>
               </NavLink>
@@ -66,7 +66,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 3rd div */}
-        <div className='budget'>
+        <div className='filter_items'>
           <div>
             <h1>Your Budget (per night)</h1>
           </div>
@@ -93,7 +93,7 @@ const SideFilter = () => {
                 <label for='homestays'>PKR 0 – PKR 10,000</label>
               </NavLink>
             </div>
-            <div className='switch-para'>
+            <div>
               <NavLink to=''>
                 <p>41</p>
               </NavLink>
@@ -111,7 +111,7 @@ const SideFilter = () => {
                 <label for='homestays'>PKR 10,000 – PKR 20,000</label>
               </NavLink>
             </div>
-            <div className='switch-para1'>
+            <div>
               <NavLink to=''>
                 <p>27</p>
               </NavLink>
@@ -129,7 +129,7 @@ const SideFilter = () => {
                 <label for='homestays'>PKR 20,000 – PKR 30,000</label>
               </NavLink>
             </div>
-            <div className='switch-para2'>
+            <div>
               <NavLink to=''>
                 <p>8</p>
               </NavLink>
@@ -147,7 +147,7 @@ const SideFilter = () => {
                 <label for='homestays'>PKR 30,000 – PKR 40,000</label>
               </NavLink>
             </div>
-            <div className='switch-para2'>
+            <div>
               <NavLink to=''>
                 <p>4</p>
               </NavLink>
@@ -165,7 +165,7 @@ const SideFilter = () => {
                 <label for='homestays'>PKR 40,000 +</label>
               </NavLink>
             </div>
-            <div className='switch-para3'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -173,7 +173,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 4th div */}
-        <div className='popular_filter'>
+        <div className='filter_items'>
           <div>
             <h1>Popular Filters</h1>
           </div>
@@ -184,7 +184,7 @@ const SideFilter = () => {
                 <label for='hotels'>Hotels</label>
               </NavLink>
             </div>
-            <div className='popular_para1'>
+            <div>
               <NavLink to=''>
                 <p>50</p>
               </NavLink>
@@ -202,7 +202,7 @@ const SideFilter = () => {
                 <label for='4 stars'>4 Stars</label>
               </NavLink>
             </div>
-            <div className='popular_para2'>
+            <div>
               <NavLink to=''>
                 <p>15</p>
               </NavLink>
@@ -220,7 +220,7 @@ const SideFilter = () => {
                 <label for='breakfast'>Breakfast Included</label>
               </NavLink>
             </div>
-            <div className='popular_para3'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -238,7 +238,7 @@ const SideFilter = () => {
                 <label for='guesthouses'>Guesthouses</label>
               </NavLink>
             </div>
-            <div className='popular_para4'>
+            <div>
               <NavLink to=''>
                 <p>69</p>
               </NavLink>
@@ -256,7 +256,7 @@ const SideFilter = () => {
                 <label for='centaurus mall'>The Centaurus Mall</label>
               </NavLink>
             </div>
-            <div className='popular_para5'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -274,7 +274,7 @@ const SideFilter = () => {
                 <label for='credit card'>Book without credit card</label>
               </NavLink>
             </div>
-            <div className='popular_para6'>
+            <div>
               <NavLink to=''>
                 <p>46</p>
               </NavLink>
@@ -292,7 +292,7 @@ const SideFilter = () => {
                 <label for='bed and breakfasts'>Bed and Breakfasts</label>
               </NavLink>
             </div>
-            <div className='popular_para7'>
+            <div>
               <NavLink to=''>
                 <p>8</p>
               </NavLink>
@@ -310,7 +310,7 @@ const SideFilter = () => {
                 <label for='F-6 sector'>F-6 Sector</label>
               </NavLink>
             </div>
-            <div className='popular_para8'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -344,7 +344,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 6th div */}
-        <div className='sustainability'>
+        <div className='filter_items'>
           <div>
             <h1>Sustainability</h1>
           </div>
@@ -362,7 +362,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='sustainability_para'>
+            <div>
               <NavLink to=''>
                 <p>15</p>
               </NavLink>
@@ -370,7 +370,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 7th div */}
-        <div className='star_rating'>
+        <div className='filter_items'>
           <div>
             <h1>Star Rating</h1>
           </div>
@@ -386,7 +386,7 @@ const SideFilter = () => {
                 <label for='sustainable properties'>3 stars</label>
               </NavLink>
             </div>
-            <div className='rating_para'>
+            <div>
               <NavLink to=''>
                 <p>16</p>
               </NavLink>
@@ -404,7 +404,7 @@ const SideFilter = () => {
                 <label for='sustainable properties'>4 stars</label>
               </NavLink>
             </div>
-            <div className='rating_para1'>
+            <div>
               <NavLink to=''>
                 <p>15</p>
               </NavLink>
@@ -422,7 +422,7 @@ const SideFilter = () => {
                 <label for='sustainable properties'>5 stars</label>
               </NavLink>
             </div>
-            <div className='rating_para2'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -440,7 +440,7 @@ const SideFilter = () => {
                 <label for='sustainable properties'>Unrated</label>
               </NavLink>
             </div>
-            <div className='rating_para3'>
+            <div>
               <NavLink to=''>
                 <p>33</p>
               </NavLink>
@@ -448,7 +448,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 8th div */}
-        <div className='distance'>
+        <div className='filter_items'>
           <div>
             <h1>Distance from center of Islamabad</h1>
           </div>
@@ -459,7 +459,7 @@ const SideFilter = () => {
                 <label for='sustainable properties'>Less than 3 km</label>
               </NavLink>
             </div>
-            <div className='distance_para'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -472,20 +472,20 @@ const SideFilter = () => {
                 <label for='sustainable properties'>Less than 5 km</label>
               </NavLink>
             </div>
-            <div className='distance_para1'>
+            <div>
               <NavLink to=''>
                 <p>3</p>
               </NavLink>
             </div>
           </div>
-          <div className='distance_para2'>
+          <div className='distance_para p'>
             <NavLink to=''>
               <p>Distance from center of Islamabad</p>
             </NavLink>
           </div>
         </div>
         {/* 9th div */}
-        <div className='fun_things'>
+        <div className='filter_items'>
           <div>
             <h1>Fun Things To Do</h1>
           </div>
@@ -496,7 +496,7 @@ const SideFilter = () => {
                 <label for='hiking'>Hiking</label>
               </NavLink>
             </div>
-            <div className='fun_things_para'>
+            <div>
               <NavLink to=''>
                 <p>17</p>
               </NavLink>
@@ -514,7 +514,7 @@ const SideFilter = () => {
                 <label for='bowling'>Bowling</label>
               </NavLink>
             </div>
-            <div className='fun_things_para1'>
+            <div>
               <NavLink to=''>
                 <p>12</p>
               </NavLink>
@@ -527,7 +527,7 @@ const SideFilter = () => {
                 <label for='tennis'>Tennis court</label>
               </NavLink>
             </div>
-            <div className='fun_things_para2'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -540,7 +540,7 @@ const SideFilter = () => {
                 <label for='golf'>Golf course (within 2 miles)</label>
               </NavLink>
             </div>
-            <div className='fun_things_para3'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -558,7 +558,7 @@ const SideFilter = () => {
                 <label for='mini golf'>Mini golf</label>
               </NavLink>
             </div>
-            <div className='fun_things_para4'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -571,7 +571,7 @@ const SideFilter = () => {
                 <label for='spa'>Spa</label>
               </NavLink>
             </div>
-            <div className='fun_things_para5'>
+            <div>
               <NavLink to=''>
                 <p>5</p>
               </NavLink>
@@ -589,7 +589,7 @@ const SideFilter = () => {
                 <label for='entertainment'>Evening entertainment</label>
               </NavLink>
             </div>
-            <div className='fun_things_para6'>
+            <div>
               <NavLink to=''>
                 <p>4</p>
               </NavLink>
@@ -602,7 +602,7 @@ const SideFilter = () => {
                 <label for='tub'>Hot tub/Jacuzzi</label>
               </NavLink>
             </div>
-            <div className='fun_things_para7'>
+            <div>
               <NavLink to=''>
                 <p>3</p>
               </NavLink>
@@ -615,7 +615,7 @@ const SideFilter = () => {
                 <label for='sauna'>Sauna</label>
               </NavLink>
             </div>
-            <div className='fun_things_para8'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -628,7 +628,7 @@ const SideFilter = () => {
                 <label for='bath'>Turkish/Steam Bath</label>
               </NavLink>
             </div>
-            <div className='fun_things_para9'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -646,7 +646,7 @@ const SideFilter = () => {
                 <label for='fitness'>Fitness</label>
               </NavLink>
             </div>
-            <div className='fun_things_para10'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -659,7 +659,7 @@ const SideFilter = () => {
                 <label for='pool'>Indoor pool</label>
               </NavLink>
             </div>
-            <div className='fun_things_para11'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -677,7 +677,7 @@ const SideFilter = () => {
                 <label for='spring bath'>Hot spring bath</label>
               </NavLink>
             </div>
-            <div className='fun_things_para12'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -695,7 +695,7 @@ const SideFilter = () => {
                 <label for='open-air bath'>Open-air bath</label>
               </NavLink>
             </div>
-            <div className='fun_things_para13'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -713,7 +713,7 @@ const SideFilter = () => {
                 <label for='massage'>Couples' massage</label>
               </NavLink>
             </div>
-            <div className='fun_things_para14'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -731,7 +731,7 @@ const SideFilter = () => {
                 <label for='full-body massage'>Full-body massage</label>
               </NavLink>
             </div>
-            <div className='fun_things_para15'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -744,7 +744,7 @@ const SideFilter = () => {
                 <label for='music'>Live music/Performance</label>
               </NavLink>
             </div>
-            <div className='fun_things_para16'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -752,7 +752,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 10th div */}
-        <div className='deal'>
+        <div className='filter_items'>
           <div>
             <h1>Deals</h1>
           </div>
@@ -763,7 +763,7 @@ const SideFilter = () => {
                 <label for='deals'>All Deals</label>
               </NavLink>
             </div>
-            <div className='deals_para'>
+            <div>
               <NavLink to=''>
                 <p>5</p>
               </NavLink>
@@ -771,7 +771,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 11th div */}
-        <div className='policy'>
+        <div className='filter_items'>
           <div>
             <h1>Cancellation Policy</h1>
           </div>
@@ -782,7 +782,7 @@ const SideFilter = () => {
                 <label for='policy'>Free cancellation</label>
               </NavLink>
             </div>
-            <div className='policy_para'>
+            <div>
               <NavLink to=''>
                 <p>63</p>
               </NavLink>
@@ -795,7 +795,7 @@ const SideFilter = () => {
                 <label for='card'>Book without credit card</label>
               </NavLink>
             </div>
-            <div className='policy_para1'>
+            <div>
               <NavLink to=''>
                 <p>47</p>
               </NavLink>
@@ -813,7 +813,7 @@ const SideFilter = () => {
                 <label for='prepayment'>No prepayment</label>
               </NavLink>
             </div>
-            <div className='policy_para2'>
+            <div>
               <NavLink to=''>
                 <p>49</p>
               </NavLink>
@@ -821,7 +821,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 12th div */}
-        <div className='meals'>
+        <div className='filter_items'>
           <div>
             <h1>Meals</h1>
           </div>
@@ -837,7 +837,7 @@ const SideFilter = () => {
                 <label for='kitchen'>Kitchen facilities</label>
               </NavLink>
             </div>
-            <div className='meals_para'>
+            <div>
               <NavLink to=''>
                 <p>64</p>
               </NavLink>
@@ -855,7 +855,7 @@ const SideFilter = () => {
                 <label for='breakfast included'>Breakfast Included</label>
               </NavLink>
             </div>
-            <div className='meals_para1'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -863,7 +863,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 13th div */}
-        <div className='entire_places'>
+        <div className='filter_items'>
           <div>
             <h1>Entire places</h1>
           </div>
@@ -879,7 +879,7 @@ const SideFilter = () => {
                 <label for='entire homes'>Entire homes & apartments</label>
               </NavLink>
             </div>
-            <div className='entire_places_para'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -887,7 +887,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 14th div */}
-        <div className='property_type'>
+        <div className='filter_items'>
           <div>
             <h1>Property Type</h1>
           </div>
@@ -903,7 +903,7 @@ const SideFilter = () => {
                 <label for='guesthouses'>Guesthouses</label>
               </NavLink>
             </div>
-            <div className='property_type_para'>
+            <div>
               <NavLink to=''>
                 <p>71</p>
               </NavLink>
@@ -921,7 +921,7 @@ const SideFilter = () => {
                 <label for='apartments'>Apartments</label>
               </NavLink>
             </div>
-            <div className='property_type_para1'>
+            <div>
               <NavLink to=''>
                 <p>64</p>
               </NavLink>
@@ -934,7 +934,7 @@ const SideFilter = () => {
                 <label for='hotels'>Hotels</label>
               </NavLink>
             </div>
-            <div className='property_type_para2'>
+            <div>
               <NavLink to=''>
                 <p>50</p>
               </NavLink>
@@ -952,7 +952,7 @@ const SideFilter = () => {
                 <label for='bed and breakfasts'>Bed and Breakfasts</label>
               </NavLink>
             </div>
-            <div className='property_type_para3'>
+            <div>
               <NavLink to=''>
                 <p>8</p>
               </NavLink>
@@ -965,7 +965,7 @@ const SideFilter = () => {
                 <label for='villas'>Villas</label>
               </NavLink>
             </div>
-            <div className='property_type_para4'>
+            <div>
               <NavLink to=''>
                 <p>5</p>
               </NavLink>
@@ -983,7 +983,7 @@ const SideFilter = () => {
                 <label for='homestays'>Homestays</label>
               </NavLink>
             </div>
-            <div className='property_type_para5'>
+            <div>
               <NavLink to=''>
                 <p>4</p>
               </NavLink>
@@ -1001,7 +1001,7 @@ const SideFilter = () => {
                 <label for='vacation homes'>Vacation Homes</label>
               </NavLink>
             </div>
-            <div className='property_type_para6'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -1014,7 +1014,7 @@ const SideFilter = () => {
                 <label for='lodges'>Lodges</label>
               </NavLink>
             </div>
-            <div className='property_type_para7'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -1022,7 +1022,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 15th div */}
-        <div className='landmarks'>
+        <div className='filter_items'>
           <div>
             <h1>Landmarks</h1>
           </div>
@@ -1038,7 +1038,7 @@ const SideFilter = () => {
                 <label for='centaurus mall'>The Centaurus Mall</label>
               </NavLink>
             </div>
-            <div className='landmarks_para'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -1046,7 +1046,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 16th div */}
-        <div className='preference'>
+        <div className='filter_items'>
           <div>
             <h1>Bed Preference</h1>
           </div>
@@ -1062,7 +1062,7 @@ const SideFilter = () => {
                 <label for='double bed'>Double bed</label>
               </NavLink>
             </div>
-            <div className='preference_para'>
+            <div>
               <NavLink to=''>
                 <p>29</p>
               </NavLink>
@@ -1070,7 +1070,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 17th div */}
-        <div className='review'>
+        <div className='filter_items'>
           <div>
             <h1>Review Score</h1>
           </div>
@@ -1086,7 +1086,7 @@ const SideFilter = () => {
                 <label for='wonderful'>Wonderful: 9+</label>
               </NavLink>
             </div>
-            <div className='review_para'>
+            <div>
               <NavLink to=''>
                 <p>23</p>
               </NavLink>
@@ -1109,7 +1109,7 @@ const SideFilter = () => {
                 <label for='very good'>Very Good: 8+</label>
               </NavLink>
             </div>
-            <div className='review_para2'>
+            <div>
               <NavLink to=''>
                 <p>30</p>
               </NavLink>
@@ -1127,7 +1127,7 @@ const SideFilter = () => {
                 <label for='good'>Good: 7+</label>
               </NavLink>
             </div>
-            <div className='review_para3'>
+            <div>
               <NavLink to=''>
                 <p>35</p>
               </NavLink>
@@ -1150,7 +1150,7 @@ const SideFilter = () => {
                 <label for='pleasant'>Pleasant: 6+</label>
               </NavLink>
             </div>
-            <div className='review_para4'>
+            <div>
               <NavLink to=''>
                 <p>37</p>
               </NavLink>
@@ -1163,7 +1163,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 18th div */}
-        <div className='facility'>
+        <div className='filter_items'>
           <div>
             <h1>Facilities</h1>
           </div>
@@ -1179,7 +1179,7 @@ const SideFilter = () => {
                 <label for='parking'>Parking</label>
               </NavLink>
             </div>
-            <div className='facilities_para'>
+            <div>
               <NavLink to=''>
                 <p>62</p>
               </NavLink>
@@ -1192,7 +1192,7 @@ const SideFilter = () => {
                 <label for='wifi'>Free WiFi</label>
               </NavLink>
             </div>
-            <div className='facilities_para1'>
+            <div>
               <NavLink to=''>
                 <p>40</p>
               </NavLink>
@@ -1210,7 +1210,7 @@ const SideFilter = () => {
                 <label for='airport'>Airport shuttle</label>
               </NavLink>
             </div>
-            <div className='facilities_para2'>
+            <div>
               <NavLink to=''>
                 <p>19</p>
               </NavLink>
@@ -1228,7 +1228,7 @@ const SideFilter = () => {
                 <label for='family rooms'>Family rooms</label>
               </NavLink>
             </div>
-            <div className='facilities_para3'>
+            <div>
               <NavLink to=''>
                 <p>58</p>
               </NavLink>
@@ -1246,7 +1246,7 @@ const SideFilter = () => {
                 <label for='non-smoking rooms'>Non-smoking rooms</label>
               </NavLink>
             </div>
-            <div className='facilities_para4'>
+            <div>
               <NavLink to=''>
                 <p>41</p>
               </NavLink>
@@ -1264,7 +1264,7 @@ const SideFilter = () => {
                 <label for='pet friendly'>Pet friendly</label>
               </NavLink>
             </div>
-            <div className='facilities_para5'>
+            <div>
               <NavLink to=''>
                 <p>21</p>
               </NavLink>
@@ -1282,7 +1282,7 @@ const SideFilter = () => {
                 <label for='front desk'>24-hour front desk</label>
               </NavLink>
             </div>
-            <div className='facilities_para6'>
+            <div>
               <NavLink to=''>
                 <p>20</p>
               </NavLink>
@@ -1300,7 +1300,7 @@ const SideFilter = () => {
                 <label for='room service'>Room service</label>
               </NavLink>
             </div>
-            <div className='facilities_para7'>
+            <div>
               <NavLink to=''>
                 <p>16</p>
               </NavLink>
@@ -1320,7 +1320,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='facilities_para8'>
+            <div>
               <NavLink to=''>
                 <p>16</p>
               </NavLink>
@@ -1338,7 +1338,7 @@ const SideFilter = () => {
                 <label for='restaurant'>Restaurant</label>
               </NavLink>
             </div>
-            <div className='facilities_para9'>
+            <div>
               <NavLink to=''>
                 <p>9</p>
               </NavLink>
@@ -1356,7 +1356,7 @@ const SideFilter = () => {
                 <label for='fitness center'>Fitness center</label>
               </NavLink>
             </div>
-            <div className='facilities_para10'>
+            <div>
               <NavLink to=''>
                 <p>6</p>
               </NavLink>
@@ -1369,7 +1369,7 @@ const SideFilter = () => {
                 <label for='spa'>Spa</label>
               </NavLink>
             </div>
-            <div className='facilities_para11'>
+            <div>
               <NavLink to=''>
                 <p>5</p>
               </NavLink>
@@ -1387,7 +1387,7 @@ const SideFilter = () => {
                 <label for='swimming pool'>Swimming pool</label>
               </NavLink>
             </div>
-            <div className='facilities_para12'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1407,7 +1407,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='facilities_para13'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1415,7 +1415,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 19th div */}
-        <div className='room_facility'>
+        <div className='filter_items'>
           <div>
             <h1>Room Facilities</h1>
           </div>
@@ -1431,7 +1431,7 @@ const SideFilter = () => {
                 <label for='private bathroom'>Private bathroom</label>
               </NavLink>
             </div>
-            <div className='room_facility_para'>
+            <div>
               <NavLink to=''>
                 <p>61</p>
               </NavLink>
@@ -1449,7 +1449,7 @@ const SideFilter = () => {
                 <label for='balcony'>Balcony</label>
               </NavLink>
             </div>
-            <div className='room_facility_para1'>
+            <div>
               <NavLink to=''>
                 <p>50</p>
               </NavLink>
@@ -1467,7 +1467,7 @@ const SideFilter = () => {
                 <label for='air conditioning'>Air conditioning</label>
               </NavLink>
             </div>
-            <div className='room_facility_para2'>
+            <div>
               <NavLink to=''>
                 <p>62</p>
               </NavLink>
@@ -1485,7 +1485,7 @@ const SideFilter = () => {
                 <label for='bathtub'>Bathtub</label>
               </NavLink>
             </div>
-            <div className='room_facility_para3'>
+            <div>
               <NavLink to=''>
                 <p>23</p>
               </NavLink>
@@ -1503,7 +1503,7 @@ const SideFilter = () => {
                 <label for='kitchen'>Kitchen/Kitchenette</label>
               </NavLink>
             </div>
-            <div className='room_facility_para4'>
+            <div>
               <NavLink to=''>
                 <p>64</p>
               </NavLink>
@@ -1516,7 +1516,7 @@ const SideFilter = () => {
                 <label for='view'>View</label>
               </NavLink>
             </div>
-            <div className='room_facility_para5'>
+            <div>
               <NavLink to=''>
                 <p>52</p>
               </NavLink>
@@ -1534,7 +1534,7 @@ const SideFilter = () => {
                 <label for='terrace'>Terrace</label>
               </NavLink>
             </div>
-            <div className='room_facility_para6'>
+            <div>
               <NavLink to=''>
                 <p>44</p>
               </NavLink>
@@ -1552,7 +1552,7 @@ const SideFilter = () => {
                 <label for='spa tub'>Spa tub</label>
               </NavLink>
             </div>
-            <div className='room_facility_para7'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1570,7 +1570,7 @@ const SideFilter = () => {
                 <label for='hot tub'>Hot tub</label>
               </NavLink>
             </div>
-            <div className='room_facility_para8'>
+            <div>
               <NavLink to=''>
                 <p>3</p>
               </NavLink>
@@ -1588,7 +1588,7 @@ const SideFilter = () => {
                 <label for='lat-screen tv'>Flat-screen TV</label>
               </NavLink>
             </div>
-            <div className='room_facility_para9'>
+            <div>
               <NavLink to=''>
                 <p>65</p>
               </NavLink>
@@ -1606,7 +1606,7 @@ const SideFilter = () => {
                 <label for='kitchen'>Kitchen</label>
               </NavLink>
             </div>
-            <div className='room_facility_para10'>
+            <div>
               <NavLink to=''>
                 <p>62</p>
               </NavLink>
@@ -1624,7 +1624,7 @@ const SideFilter = () => {
                 <label for='soundproof'>Soundproof</label>
               </NavLink>
             </div>
-            <div className='room_facility_para11'>
+            <div>
               <NavLink to=''>
                 <p>14</p>
               </NavLink>
@@ -1642,7 +1642,7 @@ const SideFilter = () => {
                 <label for='washing machine'>Washing machine</label>
               </NavLink>
             </div>
-            <div className='room_facility_para12'>
+            <div>
               <NavLink to=''>
                 <p>27</p>
               </NavLink>
@@ -1660,7 +1660,7 @@ const SideFilter = () => {
                 <label for='coffee/tea maker'>Coffee/Tea maker</label>
               </NavLink>
             </div>
-            <div className='room_facility_para13'>
+            <div>
               <NavLink to=''>
                 <p>41</p>
               </NavLink>
@@ -1678,7 +1678,7 @@ const SideFilter = () => {
                 <label for='electric kettle'>Electric kettle</label>
               </NavLink>
             </div>
-            <div className='room_facility_para14'>
+            <div>
               <NavLink to=''>
                 <p>40</p>
               </NavLink>
@@ -1698,7 +1698,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_facility_para15'>
+            <div>
               <NavLink to=''>
                 <p>24</p>
               </NavLink>
@@ -1716,7 +1716,7 @@ const SideFilter = () => {
                 <label for='coffee machine'>Coffee machine</label>
               </NavLink>
             </div>
-            <div className='room_facility_para16'>
+            <div>
               <NavLink to=''>
                 <p>6</p>
               </NavLink>
@@ -1729,7 +1729,7 @@ const SideFilter = () => {
                 <label for='patio'>Patio</label>
               </NavLink>
             </div>
-            <div className='room_facility_para17'>
+            <div>
               <NavLink to=''>
                 <p>11</p>
               </NavLink>
@@ -1737,7 +1737,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 20th div */}
-        <div className='neighborhood'>
+        <div className='filter_items'>
           <div>
             <h1>Neighborhood</h1>
           </div>
@@ -1753,7 +1753,7 @@ const SideFilter = () => {
                 <label for='E-11 sector'>E-11 Sector</label>
               </NavLink>
             </div>
-            <div className='neighborhood_para'>
+            <div>
               <NavLink to=''>
                 <p>21</p>
               </NavLink>
@@ -1771,7 +1771,7 @@ const SideFilter = () => {
                 <label for='F-6 sector'>F-6 Sector</label>
               </NavLink>
             </div>
-            <div className='neighborhood_para1'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1789,7 +1789,7 @@ const SideFilter = () => {
                 <label for='blue area'>Blue Area</label>
               </NavLink>
             </div>
-            <div className='neighborhood_para2'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1807,7 +1807,7 @@ const SideFilter = () => {
                 <label for='G-8 sector'>G-8 Sector</label>
               </NavLink>
             </div>
-            <div className='neighborhood_para3'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1825,7 +1825,7 @@ const SideFilter = () => {
                 <label for='H-8 sector'>H-8 Sector</label>
               </NavLink>
             </div>
-            <div className='neighborhood_para4'>
+            <div>
               <NavLink to=''>
                 <p>1</p>
               </NavLink>
@@ -1833,7 +1833,7 @@ const SideFilter = () => {
           </div>
         </div>
         {/* 21th div */}
-        <div className='property_accessibility'>
+        <div className='filter_items'>
           <div>
             <h1>Property Accessibility</h1>
           </div>
@@ -1849,7 +1849,7 @@ const SideFilter = () => {
                 <label for='wheelchair accessible'>Wheelchair accessible</label>
               </NavLink>
             </div>
-            <div className='property_accessibility_para'>
+            <div>
               <NavLink to=''>
                 <p>12</p>
               </NavLink>
@@ -1862,7 +1862,7 @@ const SideFilter = () => {
                 <label for='toilet'>Toilet with grab rails</label>
               </NavLink>
             </div>
-            <div className='property_accessibility_para1'>
+            <div>
               <NavLink to=''>
                 <p>7</p>
               </NavLink>
@@ -1880,7 +1880,7 @@ const SideFilter = () => {
                 <label for='raised toilet'>Raised toilet</label>
               </NavLink>
             </div>
-            <div className='property_accessibility_para2'>
+            <div>
               <NavLink to=''>
                 <p>9</p>
               </NavLink>
@@ -1898,7 +1898,7 @@ const SideFilter = () => {
                 <label for='lowered sink'>Lowered sink</label>
               </NavLink>
             </div>
-            <div className='property_accessibility_para3'>
+            <div>
               <NavLink to=''>
                 <p>6</p>
               </NavLink>
@@ -1918,7 +1918,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='property_accessibility_para4'>
+            <div>
               <NavLink to=''>
                 <p>4</p>
               </NavLink>
@@ -1944,7 +1944,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para'>
+            <div>
               <NavLink to=''>
                 <p>7</p>
               </NavLink>
@@ -1964,7 +1964,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para1'>
+            <div>
               <NavLink to=''>
                 <p>44</p>
               </NavLink>
@@ -1984,7 +1984,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para2'>
+            <div>
               <NavLink to=''>
                 <p>32</p>
               </NavLink>
@@ -2004,7 +2004,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para3'>
+            <div>
               <NavLink to=''>
                 <p>6</p>
               </NavLink>
@@ -2022,7 +2022,7 @@ const SideFilter = () => {
                 <label for='adapted bath'>Adapted bath</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para4'>
+            <div>
               <NavLink to=''>
                 <p>2</p>
               </NavLink>
@@ -2040,7 +2040,7 @@ const SideFilter = () => {
                 <label for='roll-in shower'>Roll-in shower</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para5'>
+            <div>
               <NavLink to=''>
                 <p>9</p>
               </NavLink>
@@ -2058,7 +2058,7 @@ const SideFilter = () => {
                 <label for='walk-in shower'>Walk-in shower</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para6'>
+            <div>
               <NavLink to=''>
                 <p>12</p>
               </NavLink>
@@ -2076,7 +2076,7 @@ const SideFilter = () => {
                 <label for='raised toilet'>Raised toilet</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para7'>
+            <div>
               <NavLink to=''>
                 <p>9</p>
               </NavLink>
@@ -2094,7 +2094,7 @@ const SideFilter = () => {
                 <label for='lower sink'>Lower sink</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para8'>
+            <div>
               <NavLink to=''>
                 <p>7</p>
               </NavLink>
@@ -2114,7 +2114,7 @@ const SideFilter = () => {
                 </label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para9'>
+            <div>
               <NavLink to=''>
                 <p>3</p>
               </NavLink>
@@ -2132,7 +2132,7 @@ const SideFilter = () => {
                 <label for='shower chair'>Shower chair</label>
               </NavLink>
             </div>
-            <div className='room_accessibility_para10'>
+            <div>
               <NavLink to=''>
                 <p>6</p>
               </NavLink>

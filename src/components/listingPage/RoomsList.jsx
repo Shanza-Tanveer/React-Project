@@ -23,7 +23,9 @@ const RoomsList = ({
       <div className='outer_div'>
         <div className='inner_div'>
           <div className='image_div'>
-            <img src={hotelImg} alt='' />
+            <NavLink to=''>
+              <img src={hotelImg} alt='' />
+            </NavLink>
           </div>
           <div className='data_div'>
             {/* 2nd part */}
@@ -37,7 +39,7 @@ const RoomsList = ({
                     <p>{hotelAddress}</p>
                   </div>
                   <div>
-                    <p>{property}</p>
+                    <p className='property_p'>{property}</p>
                   </div>
                 </div>
                 <div className='second_div'>
@@ -71,7 +73,7 @@ const RoomsList = ({
                     <p>{roomType}</p>
                   </div>
                   <div>
-                    <p>{facilities}</p>
+                    <p className='facilities_p'>{facilities}</p>
                   </div>
                   <div className='third_div_p1'>
                     <p>{cancellation}</p>

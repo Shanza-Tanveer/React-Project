@@ -1,4 +1,4 @@
-const RoomsData = [
+const IslamabadData = [
   {
     id: 'l1',
     hotelImg:
@@ -37,7 +37,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 4 left at this price on our site',
+    leftRooms: 'Only 4 rooms left at this price on our site',
     roomPrice: 'PKR 16,500',
     taxes: '+PKR 2,805 taxes and charges',
   },
@@ -80,7 +80,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 8,500',
     taxes: '+PKR 1,445 taxes and charges',
   },
@@ -101,7 +101,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 7,200',
     taxes: '+PKR 1,224 taxes and charges',
   },
@@ -122,7 +122,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    // leftRooms: 'Only 1 left at this price on our site',
+    // leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 6,750',
     taxes: '+PKR 1,148 taxes and charges',
   },
@@ -143,7 +143,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    // leftRooms: 'Only 1 left at this price on our site',
+    // leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 7,800',
     taxes: '+PKR 1,326 taxes and charges',
   },
@@ -163,7 +163,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    // leftRooms: 'Only 1 left at this price on our site',
+    // leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 12,960',
     taxes: '+PKR 2,203 taxes and charges',
   },
@@ -184,7 +184,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    // leftRooms: 'Only 1 left at this price on our site',
+    // leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 11,999',
     taxes: 'Includes taxes and fees',
   },
@@ -206,7 +206,7 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 12,600',
     taxes: '+PKR 2,142 taxes and charges',
   },
@@ -227,7 +227,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 11,448',
     taxes: '+PKR 1,946 taxes and charges',
   },
@@ -248,7 +248,7 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 11,448',
     taxes: '+PKR 1,946 taxes and charges',
   },
@@ -269,7 +269,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 24,000',
     taxes: '+PKR 4,080 taxes and charges',
   },
@@ -290,7 +290,7 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 12,150',
     taxes: '+PKR 2,066 taxes and charges',
   },
@@ -311,7 +311,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 9,950',
     taxes: '+PKR 1,692 taxes and charges',
   },
@@ -332,7 +332,7 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 5,850',
     taxes: '+PKR 995 taxes and charges',
   },
@@ -353,7 +353,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 5,500',
     taxes: '+PKR 935 taxes and charges',
   },
@@ -374,7 +374,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 6,600',
     taxes: '+PKR 1,122 taxes and charges',
   },
@@ -395,7 +395,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 13,950',
     taxes: '+PKR 2,372 taxes and charges',
   },
@@ -416,7 +416,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 7,500',
     taxes: '+PKR 1,275 taxes and charges',
   },
@@ -437,7 +437,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 7,600',
     taxes: '+PKR 1,292 taxes and charges',
   },
@@ -458,7 +458,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 20,000',
     taxes: '+PKR 3,400 taxes and charges',
   },
@@ -479,7 +479,7 @@ const RoomsData = [
     cancellationTime:
       'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 14,580s',
     taxes: '+PKR 2,479 taxes and charges',
   },
@@ -500,7 +500,7 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 6,970',
     taxes: '+PKR 1,066 taxes and charges',
   },
@@ -521,10 +521,10 @@ const RoomsData = [
     // cancellationTime:
     //   'You can cancel later, so lock in this great price today!',
     stay: '1 night, 2 adults',
-    leftRooms: 'Only 1 left at this price on our site',
+    leftRooms: 'Only 1 room left at this price on our site',
     roomPrice: 'PKR 7,000',
     taxes: '+PKR 1,190 taxes and charges',
   },
 ]
 
-export default RoomsData
+export default IslamabadData

@@ -3,7 +3,7 @@ import { Badge } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import './listing.css'
 
-const RoomsList = ({
+const IslamabadList = ({
   hotelImg,
   hotelName,
   hotelAddress,
@@ -17,6 +17,7 @@ const RoomsList = ({
   stay,
   roomPrice,
   taxes,
+  leftRooms,
 }) => {
   return (
     <>
@@ -81,6 +82,9 @@ const RoomsList = ({
                   <div className='third_div_p2'>
                     <p>{cancellationTime}</p>
                   </div>
+                  <div className='third_div_p3'>
+                    <p>{leftRooms}</p>
+                  </div>
                 </div>
                 <div className='fourth_div'>
                   <div>
@@ -105,4 +109,4 @@ const RoomsList = ({
   )
 }
 
-export default RoomsList
+export default IslamabadList

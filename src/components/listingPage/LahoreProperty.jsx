@@ -1,16 +1,16 @@
 import React from 'react'
-import RoomListing from './RoomListing'
+import LahoreListing from './LahoreListing'
 import Search from './Search'
 import SideFilter from './SideFilter'
 
-const Rooms = () => {
+const LahoreProperty = () => {
   return (
     <>
-      <RoomListing />
+      <LahoreListing />
       <Search />
       <SideFilter />
     </>
   )
 }
 
-export default Rooms
+export default LahoreProperty

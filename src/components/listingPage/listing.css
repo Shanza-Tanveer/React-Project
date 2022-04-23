@@ -5,7 +5,7 @@
 
 .outer_div {
   border-style: solid;
-  border-color: grey;
+  border-color: #c6c6c6;
   border-width: thin;
   float: right;
   margin-right: 125px;
@@ -112,12 +112,17 @@
   color: #008009;
 }
 
+.third_div_p3 p {
+  color: #c00;
+  font-weight: bold;
+}
+
 .facilities_p {
   margin-top: -15px;
 }
 
 .fourth_div {
-  margin-top: 30px;
+  margin-top: 62px;
 }
 
 .fourth_div p {

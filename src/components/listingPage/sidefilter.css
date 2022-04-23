@@ -5,9 +5,12 @@
   margin-left: 141px;
 }
 
+.filterlist div {
+  border-color: #c6c6c6;
+}
+
 .filter_h1 {
   border-style: solid;
-  border-color: black;
   border-width: thin;
   border-bottom: none;
   border-top-left-radius: 0.4rem;

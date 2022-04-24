@@ -1,4 +1,4 @@
-.search_form {
+/* .search_form {
   margin-top: -48px;
   margin-left: 14rem;
   margin-right: 94rem;
@@ -50,15 +50,76 @@
   border: none;
   border-radius: 8px;
   font-size: 22px;
-}
+} */
 
 .check-input {
   width: 19px;
   height: 18px;
-  /* margin-left: 9px; */
-  margin-top: 2px;
+  margin-top: 4px;
+  margin-left: -4px;
 }
 
-.form-label {
-  margin-left: 9px;
+.travel-label {
+  margin-left: 22px;
+}
+
+.travel-form {
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.datepicker_input {
+  padding: 8px;
+  padding-right: 75px;
+  margin-left: 15px;
+  font-size: 13px;
+  border-radius: 0.4rem;
+}
+
+.date_input {
+  padding: 7px;
+  padding-right: 76px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+.datepicker_form {
+  margin-top: 53px;
+  margin-left: 14rem;
+  margin-right: 94rem;
+  margin-bottom: 12px;
+  background-color: #fdd023;
+  border-style: solid;
+  border-color: #fdd023;
+  border-radius: 0.4rem;
+}
+
+.datepicker_form label {
+  font-size: 13px;
+  color: black;
+  line-height: 25px;
+  margin-left: 16px;
+}
+
+.datepicker_form h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-top: 16px;
+  margin-right: 162px;
+}
+
+.button {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+  color: white;
+  background-color: darkblue;
+  padding: 2px;
+  width: 87%;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
 }

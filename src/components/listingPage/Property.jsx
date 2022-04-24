@@ -6,7 +6,7 @@ import SideFilter from './SideFilter'
 const Property = () => {
   return (
     <>
-      <IslamabadListing />
+      {/* <IslamabadListing /> */}
       <Search />
       <SideFilter />
     </>

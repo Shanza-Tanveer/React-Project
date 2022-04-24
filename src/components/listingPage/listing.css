@@ -157,6 +157,10 @@
   font-size: 16px;
 }
 
+.fourth_div button:hover {
+  background-color: #23395d;
+}
+
 .room_reviews {
   display: flex;
 }

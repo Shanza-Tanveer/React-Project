@@ -1,62 +1,9 @@
-/* .search_form {
-  margin-top: -48px;
-  margin-left: 14rem;
-  margin-right: 94rem;
-  margin-bottom: 12px;
-  background-color: #fdd023;
-  border-style: solid;
-  border-color: #fdd023;
-  border-radius: 0.4rem;
-}
-
-.search_form input {
-  padding: 8px;
-}
-
-.search_form select {
-  padding: 8px;
-}
-
-.search_form div {
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-left: 24px;
-}
-
-.search_form h1 {
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  font-size: 22px;
-  margin-bottom: 1rem;
-  margin-top: 16px;
-  margin-right: 173px;
-}
-
-.search_form label {
-  font-size: 13px;
-  color: black;
-  line-height: 23px;
-}
-
-.search_form button {
-  margin-left: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 13px;
-  color: white;
-  background-color: darkblue;
-  padding: 2px;
-  width: 87%;
-  border: none;
-  border-radius: 8px;
-  font-size: 22px;
-} */
-
 .check-input {
   width: 19px;
   height: 18px;
   margin-top: 4px;
   margin-left: -4px;
+  position: absolute;
 }
 
 .travel-label {
@@ -74,17 +21,23 @@
   margin-left: 15px;
   font-size: 13px;
   border-radius: 0.4rem;
+  border-style: none;
+  outline: none;
 }
 
 .date_input {
   padding: 7px;
-  padding-right: 76px;
   margin-left: 15px;
   font-size: 13px;
+  border-radius: 0.4rem;
+  border-style: none;
+  outline: none;
+  padding-left: 35px;
+  padding-right: 48px;
 }
 
 .datepicker_form {
-  margin-top: 53px;
+  margin-top: -46px;
   margin-left: 14rem;
   margin-right: 94rem;
   margin-bottom: 12px;
@@ -120,6 +73,41 @@
   padding: 2px;
   width: 87%;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.4rem;
   font-size: 22px;
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: 22px;
+  transform: scale(1.5);
+}
+
+.search_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .calender-icon {
+  position: absolute;
+  margin-left: 22px;
+}
+
+.calender_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+} */
+
+.stay-icon {
+  position: absolute;
+  margin-left: 22px;
+  transform: scale(1.5);
+}
+
+.stay_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
 }

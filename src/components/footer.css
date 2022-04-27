@@ -1,75 +1,21 @@
 .regions {
   background-color: #ededed;
-  margin-top: 448px;
+  margin-top: 156px;
   display: flex;
 }
 
-.places {
-  padding: 56px;
-}
-
-.places ul li a {
+.regions ul li a {
   color: #1b4d89;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 27px;
 }
 
-.places ul li a:hover {
+.regions ul li a:hover {
   color: brown;
 }
 
-.houses {
-  padding: 56px;
-}
-
-.houses ul li a {
-  color: #1b4d89;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.houses ul li a:hover {
-  color: brown;
-}
-
-.travel {
-  padding: 56px;
-}
-
-.travel ul li a {
-  color: #1b4d89;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.travel ul li a:hover {
-  color: brown;
-}
-
-.flight {
-  padding: 56px;
-}
-
-.flight ul li a {
-  color: darkblue;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.flight ul li a:hover {
-  color: brown;
-}
-
-.terms {
-  padding: 56px;
-}
-
-.terms ul li a {
-  color: #1b4d89;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.terms ul li a:hover {
-  color: brown;
+.regions div {
+  margin-top: 37px;
+  margin-bottom: 55px;
+  margin-left: 89px;
 }

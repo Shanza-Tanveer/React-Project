@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className='regions'>
-        <div className='places'>
+        <div>
           <ul>
             <li>
               <NavLink to=''>Countries</NavLink>
@@ -31,7 +31,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='houses'>
+        <div>
           <ul>
             <li>
               <NavLink to=''>Homes</NavLink>
@@ -56,7 +56,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='travel'>
+        <div>
           <ul>
             <li>
               <NavLink to=''>Unique places to stay</NavLink>
@@ -78,7 +78,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='flight'>
+        <div>
           <ul>
             <li>
               <NavLink to=''>Car rental</NavLink>
@@ -94,7 +94,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='terms'>
+        <div>
           <ul>
             <li>
               <NavLink to=''>Coronavirus (COVID-19) FAQs</NavLink>

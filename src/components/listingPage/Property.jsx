@@ -1,13 +1,13 @@
 import React from 'react'
 import IslamabadListing from './IslamabadListing'
-import Search from './Search'
+import SearchFilter from './SearchFilter'
 import SideFilter from './SideFilter'
 
 const Property = () => {
   return (
     <>
-      {/* <IslamabadListing /> */}
-      <Search />
+      <IslamabadListing />
+      <SearchFilter />
       <SideFilter />
     </>
   )

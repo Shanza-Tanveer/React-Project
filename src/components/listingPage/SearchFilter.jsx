@@ -3,71 +3,22 @@ import { useState } from 'react'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 import './search.css'
+import { Search, Person } from '@material-ui/icons'
 
-const Search = () => {
+const SearchFilter = () => {
   const [startDate, setStartDate] = useState(null)
   const [endDate, setEndDate] = useState(null)
   return (
     <>
-      {/* <form className='search_form'>
-        <h1>Search</h1>
-        <div className='col-10'>
-          <label for='destination name'>Destination/property name:</label>
-          <input
-            type='text'
-            id='destinatin name'
-            name='destination name'
-            className='form-control search-form-input'
-            value=''
-            placeholder=''
-          />
-        </div>
-        <div className='col-10'>
-          <label for='check-in date'>Check-in Date:</label>
-          <select className='form-select' aria-label='Default select example'>
-            <option selected=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-          </select>
-        </div>
-        <div className='col-10'>
-          <label for='check-in date'>Check-out Date:</label>
-          <select className='form-select' aria-label='Default select example'>
-            <option selected=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-          </select>
-        </div>
-        <div className='col-10'>
-          <label for='check-in date'>Stays:</label>
-          <select className='form-select' aria-label='Default select example'>
-            <option selected=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-          </select>
-        </div>
-        <div className='form-check'>
-          <input
-            className='form-check-input check-input'
-            type='checkbox'
-            value=''
-            id='flexCheckDefault'
-          />
-          <label className='form-check-label form-label' for='flexCheckDefault'>
-            I'm traveling for work
-          </label>
-        </div>
-        <button>Search</button>
-      </form> */}
       <form className='datepicker_form'>
+        <h1>Search</h1>
         <div>
-          <h1>Search</h1>
           <label for='destination name'>Destination/property name:</label>
+        </div>
+        <div className='search_icon'>
+          <Search className='search-icon' />
           <input
-            type='text'
+            type='search'
             id='destinatin name'
             name='destination name'
             className='date_input'
@@ -77,6 +28,9 @@ const Search = () => {
         </div>
         <div>
           <label For='check-in date'>Check-in Date</label>
+        </div>
+        <div className='calender_icon'>
+          {/* <CalendarToday className='calender-icon' /> */}
           <DatePicker
             placeholderText='Check-in Date'
             dateFormat='MMMM d, yyyy'
@@ -89,7 +43,7 @@ const Search = () => {
           />
         </div>
         <div>
-          <label For='check-in date'>Check-in Date</label>
+          <label For='check-in date'>Check-out Date</label>
           <DatePicker
             placeholderText='Check-out Date'
             dateFormat='MMMM d, yyyy'
@@ -103,7 +57,10 @@ const Search = () => {
           />
         </div>
         <div>
-          <label for='stays'>Stays:</label>
+          <label for='stays'>1-night stay</label>
+        </div>
+        <div className='stay_icon'>
+          <Person className='stay-icon' />
           <input
             type='text'
             id='destinatin name'
@@ -133,4 +90,4 @@ const Search = () => {
   )
 }
 
-export default Search
+export default SearchFilter

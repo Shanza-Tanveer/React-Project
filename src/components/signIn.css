@@ -1,17 +1,20 @@
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
 .signIn_form {
-  /* margin-top: 36px; */
   margin-top: 36px;
-  margin-left: 39rem;
-  margin-right: 39rem;
-  background-color: beige;
+  margin-left: 45rem;
+  margin-right: 45rem;
+  background-color: #9cc3d5ff;
   border-style: solid;
-  border-color: burlywood;
-  border-radius: 2rem;
+  border-color: #9cc3d5ff;
+  border-radius: 0.4rem;
 }
 
 .signIn_form div {
   margin: 0 auto;
-  margin-top: 1rem;
 }
 
 .signIn_form h1 {
@@ -19,7 +22,7 @@
   color: darkblue;
   font-weight: bold;
   font-size: 43px;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-top: 37px;
 }
 
@@ -27,34 +30,76 @@
   font-size: 19px;
   font-weight: bold;
   color: darkblue;
-  line-height: 36px;
+  /* line-height: 36px; */
+  margin-top: 15px;
 }
 
 .signIn_form button {
   /* margin-left: 60rem;
   margin-top: 7rem; */
-  margin-left: 22rem;
-  margin-top: 9rem;
+  margin-left: 16rem;
+  margin-top: 5rem;
   margin-bottom: 60px;
   color: white;
-  background-color: #dcae1d;
+  background-color: darkblue;
   padding: 7px;
   padding-left: 32px;
   padding-right: 32px;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.4rem;
   font-size: 22px;
 }
 
 .signIn_form button:hover {
-  background-color: #c3d2d3;
+  background-color: #0071c2;
   text-decoration: none;
   transition: 0.5s;
-  color: darkblue;
+  color: white;
 }
 
-.form-input {
+.form_input {
   font-size: 1.6rem;
-  border-color: burlywood;
-  border-radius: 0.7rem;
+  border-color: #9cc3d5ff;
+  border-radius: 0.4rem;
+  padding-left: 40px;
+}
+
+.email_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email-icon {
+  position: absolute;
+  margin-left: 12px;
+  transform: scale(1.5);
+}
+
+.lock_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lock-icon {
+  position: absolute;
+  margin-left: 12px;
+  transform: scale(1.5);
+}
+
+.top-icon {
+  transform: scale(5);
+  margin-left: 219px;
+  margin-top: 51px;
+  border-width: thin;
+  border-radius: 13px;
+  color: white;
+  border-color: #0071c2;
+  background-color: #0071c2;
+  padding: 2px;
+}
+
+.email-label {
+  line-height: 24px;
 }

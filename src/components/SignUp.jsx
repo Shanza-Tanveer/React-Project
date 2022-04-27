@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './signUp.css'
+import { Email, Lock, Phone, Person } from '@material-ui/icons'
 
 const SignUp = () => {
   const [person, setPerson] = useState({
@@ -57,9 +58,13 @@ const SignUp = () => {
   return (
     <>
       <form className='signUp_form'>
+        <Person className='top-icons' />
         <h1>Sign Up</h1>
-        <div className='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='firstName'>First Name</label>
+        </div>
+        <div className='col-10 person_icon'>
+          <Person className='person-icon' />
           <input
             type='text'
             id='firstName'
@@ -69,8 +74,11 @@ const SignUp = () => {
             onChange={handleChange}
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='middleName'>Middle Name</label>
+        </div>
+        <div class='col-10 person_icon'>
+          <Person className='person-icon' />
           <input
             type='text'
             id='middleName'
@@ -80,8 +88,11 @@ const SignUp = () => {
             onChange={handleChange}
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='lastName'>Last Name</label>
+        </div>
+        <div class='col-10 person_icon'>
+          <Person className='person-icon' />
           <input
             type='text'
             id='lastName'
@@ -91,8 +102,11 @@ const SignUp = () => {
             onChange={handleChange}
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='phoneNo'>Phone No</label>
+        </div>
+        <div class='col-10 phone_icon'>
+          <Phone className='phone-icon' />
           <input
             type='number'
             id='phoneNo'
@@ -102,8 +116,11 @@ const SignUp = () => {
             onChange={handleChange}
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='email'>Email</label>
+        </div>
+        <div class='col-10 email_icons'>
+          <Email className='email-icons' />
           <input
             type='email'
             id='email'
@@ -111,10 +128,14 @@ const SignUp = () => {
             className='form-control form-input'
             value={person.email}
             onChange={handleChange}
+            autoComplete='off'
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='password'>Password</label>
+        </div>
+        <div class='col-10 lock_icons'>
+          <Lock className='lock-icons' />
           <input
             type='password'
             id='password'
@@ -124,8 +145,11 @@ const SignUp = () => {
             onChange={handleChange}
           />
         </div>
-        <div class='col-10'>
+        <div className='col-10 label-height'>
           <label forHtml='confirmPassword'>Confirm Password</label>
+        </div>
+        <div className='col-10 lock_icons'>
+          <Lock className='lock-icons' />
           <input
             type='password'
             id='confirmPassword'

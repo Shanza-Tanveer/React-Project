@@ -57,7 +57,7 @@ const SignIn = () => {
             placeholder='Enter Password'
           />
         </div>
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleSubmit}>Sign In</button>
       </form>
     </>
   )

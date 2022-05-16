@@ -107,7 +107,7 @@ const IslamabadListing = () => {
                   <div className='lower_div'>
                     <div className='third_div'>
                       <div className='third_div_p'>
-                        <p>{curElem.AppartmentType}</p>
+                        <p>{curElem.appartmentType}</p>
                       </div>
                       <div>
                         <p>{curElem.entireAppartment}</p>
